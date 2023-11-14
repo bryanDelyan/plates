@@ -9,7 +9,15 @@ s.reveal('.info-text', {
     delay: 200,
     origin: 'top'
 });
+s.reveal('.info-text2', {
+    delay: 200,
+    origin: 'top'
+});
 s.reveal('.info-img', {
+    delay: 200,
+    origin: 'top'
+});
+s.reveal('.info-img2', {
     delay: 200,
     origin: 'top'
 });
