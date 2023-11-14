@@ -48,7 +48,6 @@ header {
 .navlist2 {
     display: flex;
     z-index: 1000;
-
 }
 
 .navlist a,
@@ -56,7 +55,7 @@ header {
     color: black;
     margin-left: 60px;
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
@@ -117,6 +116,7 @@ section .container-fluid {
 .shadow-2 {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+
 .shadow-3 {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -264,18 +264,30 @@ section .container-fluid {
         display: block;
     }
 
-    .navlist,
+    .navlist{
+        position: absolute;
+        top: -600% !important;
+        right: 0;
+        width: 100%;
+        height: 243px;
+        background: rgb(248, 249, 250);
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+
     .navlist2 {
         position: absolute;
         top: -350% !important;
         right: 0;
         width: 100%;
-        height: 25%;
+        height: 243px;
         background: rgb(248, 249, 250);
         display: flex;
         align-items: left;
         flex-direction: column;
-        padding: 30px 40px;
+        padding: 20px 40px;
     }
 
     .navlist a,
@@ -287,7 +299,7 @@ section .container-fluid {
     }
 
     .navlist.open {
-        top: 72 !important;
+        top: 75 !important;
         transition-duration: 0.5s;
     }
 
@@ -368,12 +380,14 @@ label {
 
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
-    <ul class="navlist">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#examples">Examples</a></li>
-    </ul>
+    <header style="z-index: 100;">
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#examples">Examples</a></li>
+        </ul>
+    </header>
     <section class="pb-5 bg-info st" id="home">
         <div class="container py-4 px-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
@@ -413,14 +427,15 @@ label {
                             more
                             than 10 years of experience and service for the entire community of the country. With a
                             transparent and reliable legal service.</p>
-                            <p>We are the main company in charge of issuing temporary plates throughout the US, we have
+                        <p>We are the main company in charge of issuing temporary plates throughout the US, we have
                             more
                             than 10 years of experience and service for the entire community of the country. With a
                             transparent and reliable legal service.</p>
 
                     </div>
                     <div class="col-12 col-md-6 text-end info-img2 p-3">
-                        <img src="https://s7d2.scene7.com/is/image/TWCNews/es_forged_temp_licenseplatespk117085059920" class="img-fluid rounded shadow-3" alt="">
+                        <img src="https://s7d2.scene7.com/is/image/TWCNews/es_forged_temp_licenseplatespk117085059920"
+                            class="img-fluid rounded shadow-3" alt="">
                     </div>
                 </div>
             </div>
@@ -436,16 +451,20 @@ label {
             <div class="container">
                 <div class="row gy-4 p-md-4 m-md-2 mt-0">
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3"
+                            src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc2.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3"
+                            src="https://www.serviplatesllc.com/images/truc2.png" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc3.jpeg" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3"
+                            src="https://www.serviplatesllc.com/images/truc3.jpeg" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3"
+                            src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -543,9 +562,9 @@ label {
             </div>
         </div>
     </section>
-    <div class="contianer-fluid py-5 px-2 px-md-5 mx-md-5 bg-light" id="contact">
-        <div class="pb-5 mb-4 pt-5 mx-md-5 px-md-5">
-            <form class="col-md-8 col-lg-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
+    <div class="contianer-fluid py-md-5 px-md-5 bg-light" id="contact">
+        <div class="mb-lg-4 py-lg-5 mx-lg-5 px-md-5 ">
+            <form class="col-md-9 col-lg-6 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
                 <div class="mb-3">
                     <h1 class="text-center fw-semibold fs-3 mb-5">Contact Us</h1>
                     <label for="exampleInputEmail1" class="form-label fw-semibold">Name</label>
