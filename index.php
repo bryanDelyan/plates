@@ -1,359 +1,13 @@
-<style>
-/* 
-
-BLUE 
-0f98f8
-2d97e2
-
-GREEN 
-#229954
-#27AE60
-*/
-:root {
-    --main: #117A65;
-    --second: #27AE60;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style: none;
-    text-decoration: none !important;
-
-}
-
-header {
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 100000;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px 9%;
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 9%;
-    color: var(--main);
-    text-decoration: none;
-}
-
-.navlist,
-.navlist2 {
-    display: flex;
-    z-index: 1000;
-}
-
-.navlist a,
-.navlist2 a {
-    color: black;
-    margin-left: 60px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: all .55s ease;
-}
-
-#menu-icon {
-    color: black;
-    font-size: 35px;
-    z-index: 10001%;
-    cursor: pointer;
-    display: none;
-}
-
-.bg-info {
-    background: linear-gradient(to right, var(--main), var(--second)) !important;
-}
-
-.rounded-10 {
-    border-radius: 150px 150px 0px 0px;
-}
-
-.info {
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to right, var(--main), var(--second));
-    /* o este to right, #87CEEB, #00BFFF */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2rem;
-}
-
-.info-img img {
-    width: 80%;
-    height: auto;
-    margin-top: -10px;
-}
-
-section {
-    padding: 0 8%;
-}
-
-section .container-fluid {
-    padding: 0 8%;
-    padding-top: 15vh !important;
-}
-
-.info-text h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    line-height: 1;
-    color: white;
-    margin: 0 0 45px;
-
-}
-
-.shadow-2 {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-.shadow-3 {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.info-text2 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    line-height: 1;
-    color: rgb(0, 0, 0);
-    margin: 0 0 45px;
-}
-
-.info-text p {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 1.9;
-    text-align: justify;
-    margin-bottom: 40px;
-
-}
-
-.st-2 {
-    color: var(--main) !important;
-}
-
-.info-text a {
-    display: inline-block;
-    color: white;
-    background: #000000;
-    /*o tranparent */
-    border: 1px solid transparent;
-    padding: 12px 30px;
-    line-height: 1.4;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    text-transform: uppercase;
-    transition: all .55s ease;
-
-}
-
-.info-text a:hover {
-    background: transparent;
-    border: 1px solid white;
-    transform: translate(8px);
-}
-
-.icons {
-    position: absolute;
-    top: 70%;
-    padding: 0 9%;
-    transform: translateY(-50%);
-    right: 0px;
-}
-
-.icons i {
-    display: block;
-    margin: 26px 0;
-    font-size: 24px;
-    color: black;
-    transition: all .50s ease;
-}
-
-.icons i:hover {
-    color: white;
-    transform: translateX(8px);
-}
-
-.st {
-    padding-top: 18vh;
-}
-
-@media (max-width : 1535px) {
-    header {
-        padding: 15px 3%;
-        transition: .2s;
-    }
-
-    .icons {
-        padding: 0 3%;
-        transition: .2s;
-    }
-}
-
-@media (max-width : 1460px) {
-    selection {
-        padding: 0 12%;
-        transition: .2s;
-    }
-
-}
-
-@media (max-width : 1340px) {
-    .info-img {
-        width: 100%;
-        height: auto;
-    }
-
-    .info-text h1 {
-        font-size: 40px;
-        margin: 0 0 30px;
-    }
-
-}
-
-@media (max-width : 1195px) {
-    selection {
-        padding: 0 3%;
-        transition: .2s;
-    }
-
-    .info-text {
-        padding-top: 115px;
-
-    }
-
-    .info-text h1,
-    .info-text2 h1 {
-        font-size: 34px !important;
-        padding: 5px;
-    }
-
-    .info-img {
-        text-align: center;
-    }
-
-    .info-img img {
-        width: 560px;
-        height: auto;
-    }
-
-    .info {
-        height: 100%;
-        gap: 1rem;
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width : 990px) {
-    .st {
-        padding-top: 0px;
-    }
-
-    #menu-icon {
-        display: block;
-    }
-
-    .navlist {
-        position: absolute;
-        top: -600% !important;
-        right: 0;
-        width: 100%;
-        height: 243px;
-        background: rgb(248, 249, 250);
-        display: flex;
-        align-items: left;
-        flex-direction: column;
-        padding: 20px 40px;
-    }
-
-    .navlist2 {
-        position: absolute;
-        top: -350% !important;
-        right: 0;
-        width: 100%;
-        height: 243px;
-        background: rgb(248, 249, 250);
-        display: flex;
-        align-items: left;
-        flex-direction: column;
-        padding: 20px 40px;
-    }
-
-    .navlist a,
-    .navlist2 a {
-        margin-left: 0;
-        display: block;
-        margin: 10px 0;
-
-    }
-
-    .navlist.open {
-        top: 75 !important;
-        transition-duration: 0.5s;
-    }
-
-    .logo {
-        padding-left: 5%;
-    }
-}
-
-@media (max-width : 680px) {
-    .info-img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-label {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 1;
-    color: black;
-    margin: 0 0 45px;
-}
-
-.form-control {
-    background-color: #f8f9f9af !important;
-    padding: 7px !important;
-    border-radius: 5px !important;
-    margin-bottom: 5px !important;
-    margin-top: 4px !important;
-}
-
-
-
-.bg-footer {
-    background-color: linear-gradient(to right, var(--main), var(--second)) !important;
-    background-repeat: no-repeat;
-}
-
-.floating-button {
-    bottom: 40px;
-    right: 50px;
-    position: fixed;
-    z-index: 1000;
-}
-
-
-
-</style>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
+    <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
+    <meta name="author" content="Sebastian Vargaz">
     <!-- Css link -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Boxicons link -->
@@ -374,7 +28,8 @@ label {
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
     <title>Plates</title>
-
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/controls.js"></script>
 </head>
 
 <body>
@@ -384,8 +39,8 @@ label {
         <ul class="navlist2">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li><a href="#examples">Examples</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -394,11 +49,12 @@ label {
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li><a href="#examples">Examples</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <a href="https://wa.me/+573222863938" target="_blank" class="btn btn-success rounded-fill fs-2 btn-lg floating-button">
+    <a href="https://wa.me/+573222863938" target="_blank"
+        class="btn btn-success rounded-fill fs-2 btn-lg floating-button">
         <i class='bx bxl-whatsapp'></i>
     </a>
     <section class="pb-5 bg-info st" id="home">
@@ -577,31 +233,44 @@ label {
     </section>
     <div class="contianer-fluid py-md-5 px-md-5 bg-light" id="contact">
         <div class="mb-lg-4 py-lg-5 mx-lg-5 px-md-5 ">
-            <form class="col-md-9 col-lg-6 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
-                <div class="mb-3">
-                    <h1 class="text-center fw-semibold fs-3 mb-5">Contact Us</h1>
-                    <label for="exampleInputEmail1" class="form-label fw-semibold">Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3 mt-5">
-                    <label for="exampleInputEmail1" class="form-label fw-semibold">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3 mt-5">
-                    <label for="exampleInputEmail1" class="form-label fw-semibold">Telefono</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3 mt-5">
-                    <label for="exampleInputEmail1" class="form-label fw-semibold">Residencia</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
+            <form id="contactForm" method="POST" class="col-md-9 col-lg-6 col-xl-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
+                <h1 class="text-center fw-semibold fs-3">Contact Us</h1>
+                <hr>
+                <br>
+                <div class="px-xl-4 py-xl-2">
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label fw-semibold">Name</label>
+                        <input type="text" required class="form-control" id="inputName" aria-describedby="nameHelp">
+                    </div>
+                    <div class="mb-3 mt-5">
+                        <label for="inputEmail" class="form-label fw-semibold">Email address</label>
+                        <input type="email" required class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 mt-5">
+                        <label for="inputPhone" class="form-label fw-semibold">Phone</label>
+                        <input type="tel" required class="form-control" id="inputPhone" aria-describedby="phoneHelp">
+                        <div id="phoneHelp" class="form-text">We'll never share your phone number with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3 mt-5">
+                        <label for="inputResidence" class="form-label fw-semibold">Residence</label>
+                        <select class="form-control form-select" required id="inputResidence"
+                            aria-describedby="residenceHelp">
+                            <?php
+                            foreach ($estados_usa as $estado) {
+                                echo '<option value="' . $estado['estado'] . '">' . $estado['estado'] . '</option>';
+                            }
+                            ?>
+                        </select>
+                        <div id="residenceHelp" class="form-text">Choose your residence state.</div>
+                    </div>
 
-                <button type="submit" class="btn btn-dark w-100 py-3 my-4">Submit</button>
+                </div>
+                <br>
+                <hr>
+                <button type="submit" class="btn btn-dark w-100 py-2 my-4">Submit</button>
             </form>
-
         </div>
     </div>
     <footer class="bg-info m-0 p-0 bg-2">
@@ -642,6 +311,7 @@ label {
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
