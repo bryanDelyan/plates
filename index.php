@@ -374,8 +374,8 @@ label {
         <li><a href="#contact">Contact</a></li>
         <li><a href="#examples">Examples</a></li>
     </ul>
-    <section class="container-fluid pb-5 bg-info st" id="home">
-        <div class="container p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+    <section class="pb-5 bg-info st" id="home">
+        <div class="container py-4 px-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="row">
                 <div class="col-md-6 col-12 px-md-3">
@@ -394,7 +394,7 @@ label {
                 </div>
                 <div class="col-md-6 col-12 p-md-3 text-center">
                     <div class="info-img py-md-5">
-                        <img src="img/track.png" class="img-fluid" alt="">
+                        <img src="img/track.png" class="img-fluid rounded shadow-3" alt="">
                     </div>
                 </div>
             </div>
@@ -413,10 +413,14 @@ label {
                             more
                             than 10 years of experience and service for the entire community of the country. With a
                             transparent and reliable legal service.</p>
+                            <p>We are the main company in charge of issuing temporary plates throughout the US, we have
+                            more
+                            than 10 years of experience and service for the entire community of the country. With a
+                            transparent and reliable legal service.</p>
 
                     </div>
-                    <div class="col-12 col-md-4 text-end info-img2">
-                        <img src="" class="w-100 h-100 " alt="">
+                    <div class="col-12 col-md-6 text-end info-img2 p-3">
+                        <img src="https://s7d2.scene7.com/is/image/TWCNews/es_forged_temp_licenseplatespk117085059920" class="img-fluid rounded shadow-3" alt="">
                     </div>
                 </div>
             </div>
@@ -432,16 +436,16 @@ label {
             <div class="container">
                 <div class="row gy-4 p-md-4 m-md-2 mt-0">
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc2.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc2.png" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc3.jpeg" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc3.jpeg" alt="">
                     </div>
                     <div class="col-md-3 col-12">
-                        <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
+                        <img class="bg-light w-100 h-100 rounded shadow-3" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -505,7 +509,7 @@ label {
 
         </div>
     </section>
-    <section id="vision" class="py-md-5 bg-blue">
+    <section id="vision" class="py-md-5 bg-blue d-none">
         <div class="container py-5">
             <div class="row pt-5">
                 <div class="col-md-6 col-12 ">
