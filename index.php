@@ -36,7 +36,7 @@ header {
 .navlist {
     display: flex;
     z-index: 1000;
-    
+
 }
 
 .navlist a {
@@ -89,11 +89,11 @@ header {
 }
 
 section {
-    padding: 0 19%;
+    padding: 0 8%;
 }
 
 section .container-fluid {
-    padding: 0 19%;
+    padding: 0 8%;
     padding-top: 15vh !important;
 }
 
@@ -256,7 +256,7 @@ section .container-fluid {
         right: 0;
         width: 100%;
         height: 17rem;
-        background: rgb(248,249,250);
+        background: rgb(248, 249, 250);
         display: flex;
         align-items: left;
         flex-direction: column;
@@ -274,7 +274,8 @@ section .container-fluid {
         top: 72 !important;
         transition-duration: 1s;
     }
-    .logo{
+
+    .logo {
         padding-left: 5%;
     }
 }
@@ -340,18 +341,18 @@ label {
 
 <body>
     <header class="shadow bg-white st-2">
-        
+
         <a href="#" class="logo">SERVI PLATES</a>
 
-        
+
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <ul class="navlist">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Examples</a></li>
-        </ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Examples</a></li>
+    </ul>
     <section class="container-fluid pb-5 bg-info st">
         <div class="container p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
@@ -367,7 +368,7 @@ label {
                             ea.
                             Non?
                         </p>
-                       
+
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-md-3 text-center">
@@ -391,7 +392,7 @@ label {
                             more
                             than 10 years of experience and service for the entire community of the country. With a
                             transparent and reliable legal service.</p>
-                    
+
                     </div>
                     <div class="col-12 col-md-4 text-end info-img2">
                         <img src="" class="w-100 h-100 " alt="">
@@ -461,9 +462,9 @@ label {
             </div>
         </div>
     </section>
-    <section class="bg-info rounded-10 info-text pt-5 pb-2" id="states">
+    <section class="bg-info info-text pt-5 pb-2" id="states">
         <div style="
-            background-image: url('https://themewagon.github.io/AI-html/img/bg-hero.png') !important;
+            background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
 
             <h1 class="text-center pt-5 pb-2">
@@ -519,7 +520,7 @@ label {
     </section>
     <section class="contianer-fluid py-5 bg-light" id="form">
         <div class="pb-5 mb-4 pt-5">
-            <form class="w-50 mx-auto bg-white py-5 px-5 rounded">
+            <form class="col-md-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-sm">
                 <div class="mb-3">
                     <h1 class="text-center fw-semibold fs-3 mb-5">Contact Us</h1>
                     <label for="exampleInputEmail1" class="form-label fw-semibold">Name</label>
@@ -540,9 +541,10 @@ label {
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-              
+
                 <button type="submit" class="btn btn-dark w-100 py-3 my-4">Submit</button>
             </form>
+
         </div>
     </section>
     <footer class="bg-info m-0 p-0 bg-2">
