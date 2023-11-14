@@ -1,3 +1,301 @@
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+* {
+    text-decoration: none !important;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 9%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 3%;
+    color: #0f98f8;
+    text-decoration: none;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: #0f98f8;
+    margin-left: 60px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 30px;
+    z-index: 10001%;
+    cursor: pointer;
+    display: none;
+}
+
+.bg-info {
+    background: linear-gradient(to right, #0f98f8, #2d97e2) !important;
+}
+
+.rounded-10 {
+    border-radius: 150px 150px 0px 0px;
+}
+
+.info {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #0f98f8, #2d97e2);
+    /* o este to right, #87CEEB, #00BFFF */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-img img {
+    width: 80%;
+    height: auto;
+    margin-top: -10px;
+}
+
+section {
+    padding: 0 19%;
+}
+
+section .container-fluid {
+    padding: 0 19%;
+    padding-top: 15vh !important;
+}
+
+.info-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 53px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+
+}
+
+.info-text2 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 53px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    margin: 0 0 45px;
+
+}
+
+.info-text p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+.st-2{
+ color: #0f98f8 !important;
+}
+.info-text a {
+    display: inline-block;
+    color: white;
+    background: #000000;
+    /*o tranparent */
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+
+}
+
+.info-text a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translate(8px);
+}
+
+.icons {
+    position: absolute;
+    top: 70%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+
+.icons i {
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: black;
+    transition: all .50s ease;
+}
+
+.icons i:hover {
+    color: white;
+    transform: translateX(8px);
+}
+.st{
+    padding-top: 18vh;
+}
+@media (max-width : 1535px) {
+    header {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+
+    .icons {
+        padding: 0 3%;
+        transition: .2s;
+    }
+}
+
+@media (max-width : 1460px) {
+    selection {
+        padding: 0 12%;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width : 1340px) {
+    .info-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-text h1 {
+        font-size: 40px;
+        margin: 0 0 30px;
+    }
+
+}
+
+@media (max-width : 1195px) {
+    selection {
+        padding: 0 3%;
+        transition: .2s;
+    }
+
+    .info-text {
+        padding-top: 115px;
+
+    }
+
+    .info-text h1,
+    .info-text2 h1 {
+        font-size: 34px !important;
+        padding: 5px;
+    }
+
+    .info-img {
+        text-align: center;
+    }
+
+    .info-img img {
+        width: 560px;
+        height: auto;
+    }
+
+    .info {
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width : 990px) {
+    .st{
+        padding-top: 0px;
+    }
+    #menu-icon {
+        display: block;
+    }
+
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #111111;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .navlist a {
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+
+    }
+
+    .navlist.open {
+        right: 0;
+    }
+}
+
+@media (max-width : 680px) {
+    .info-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    color: black;
+    margin: 0 0 45px;
+}
+
+.form-control {
+    background-color: #f8f9f9af !important;
+    padding: 7px !important;
+    border-radius: 5px !important;
+    margin-bottom: 5px !important;
+    margin-top: 4px !important;
+}
+
+
+
+.bg-footer {
+    background-color: linear-gradient(to right, #0f98f8, #2d97e2) !important;
+    background-repeat: no-repeat;
+}
+</style>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,8 +326,8 @@
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">SERVI PLATES </a>
+    <header class="shadow bg-white st-2">
+        <a href="#" class="logo">SERVI PLATES</a>
 
         <ul class="navlist">
             <li><a href="#">Home</a></li>
@@ -41,82 +339,141 @@
 
         </div>
     </header>
-    <section class="info">
-        <div class="info-text">
-            <h1>Temporary License Plates</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptate, tenetur laudantium illo id
-                in, ad sunt ab esse, quisquam sed inventore beatae laboriosam autem dignissimos iure quas ea. Non?
-            </p>
-            <a href="#">Watch</a>
+    
+    <section class="container-fluid pb-5 bg-info st">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="info-text">
+                        <h1>Temporary License Plates</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptate, tenetur
+                            laudantium
+                            illo id
+                            in, ad sunt ab esse, quisquam sed inventore beatae laboriosam autem dignissimos iure quas
+                            ea.
+                            Non?
+                        </p>
+                        <a href="#">Watch</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 p-md-3 text-center">
+                    <div class="info-img py-md-5">
+                        <img src="img/track.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="info-img">
-            <img src="img/track.png" alt="">
-        </div>
+
+
     </section>
-    <section class="container-fluid" id="about">
-        <div class="my-5 info-text2">
-            <div class="row ">
-                <div class="col-12 col-md-4 text-end info-img2">
-                    <img src="https://www.serviplatesllc.com/images/banner.png" class="w-50 h-100 " alt="">
-                </div>
-                <div class="col-12 col-md-6 text-start">
-                    <h1 class="mb-4">About Us</h1>
-                    <p>We are the main company in charge of issuing temporary plates throughout the US, we have more
-                        than 10 years of experience and service for the entire community of the country. With a
-                        transparent and reliable legal service.</p>
-                    <a href="fw-semibold">Read More</a>
+    <section class="container-fluid py-5" id="about">
+        <div class="container px-4 py-5">
+            <div class="my-5 info-text2 py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 text-start">
+                        <h1 class="mb-4">About Us</h1>
+                        <p>We are the main company in charge of issuing temporary plates throughout the US, we have
+                            more
+                            than 10 years of experience and service for the entire community of the country. With a
+                            transparent and reliable legal service.</p>
+                        <a href="fw-semibold">Read More</a>
+                    </div>
+                    <div class="col-12 col-md-4 text-end info-img2">
+                        <img src="https://www.serviplatesllc.com/images/banner.png" class="w-50 h-100 " alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid pb-5" id="plates">
+    <section class="container-fluid pb-5 bg-light" id="plates">
         <div class="p-5">
-            <div class="col-12 mb-2 info-text2">
+            <div class="col-12 mb-2 info-text2 py-5">
                 <h1 class="text-center">Examples Temporary license plates</h1>
             </div>
             <div class="container">
-                <div class="row p-4 m-2 mt-0">
-                    <div class="col-3">
+                <div class="row gy-4 p-md-4 m-md-2 mt-0">
+                    <div class="col-md-3 col-12">
                         <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc2.png" alt="">
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc3.jpeg" alt="">
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <img class="bg-light w-100 h-100" src="https://www.serviplatesllc.com/images/truc1.png" alt="">
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid pb-5 bg-white" id="plates">
+        <div class="p-5">
+            <div class="col-12 mb-2 info-text2 py-5 pb-2">
+                <h1 class="text-center">Generation and marketing of the product</h1>
+            </div>
+            <div class="container">
+                <div class="row mt-0 gx-4 gy-2">
+                    <div class="col-md-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-sm">
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
+                            <p class="text-center fs-4">100 Plates sold</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-sm">
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
+                            <p class="text-center fs-4">100 Plates sold</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-sm">
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
+                            <p class="text-center fs-4">100 Plates sold</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-sm">
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
+                            <p class="text-center fs-4">100 Plates sold</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
     <section class="bg-info rounded-10 info-text pt-5 pb-2" id="states">
-        <h1 class="text-center pt-5 pb-2">
-            STATES WHERE WE ISSUE TEMPORARY PLATES
-        </h1>
-        <div class="container pb-4">
-            <div class="row">
-                <?php
-            include './php/locations.php';
-            foreach ($estados_usa as $estado) {
-                echo '<div class="col-2 text-white fs-5 pb-3">'.$estado['estado'].'</div>';
-            }
-            ?>
+        <div style="
+            background-image: url('https://themewagon.github.io/AI-html/img/bg-hero.png') !important;
+            background-size: cover !important;">
+
+            <h1 class="text-center pt-5 pb-2">
+                STATES WHERE WE ISSUE TEMPORARY PLATES
+            </h1>
+            <div class="container pb-4 p-0">
+                <div class="row p-0">
+                    <?php
+                        include './php/locations.php';
+                        foreach ($estados_usa as $estado) {
+                            echo '<div class="col-6 col-md-2 text-white fs-6 pb-3">'.$estado['estado'].'</div>';
+                        }
+                        ?>
+                </div>
+
             </div>
 
         </div>
-
     </section>
-    <section id="vision">
+    <section id="vision" class=" bg-blue">
         <div class="container py-5">
             <div class="row pt-5">
-                <div class="col-6">
+                <div class="col-md-6 col-12 ">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <img src="https://www.serviplatesllc.com/images/why1.png" class="w-75" alt="">
                         </div>
                         <div class="col-8">
@@ -125,12 +482,12 @@
                     </div>
                     <div class="p-4">
                         <p>For our company, the most important thing is the safety of our clients, that is why our most
-                        important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
+                            important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12 ">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <img src="https://www.serviplatesllc.com/images/why1.png" class="w-75" alt="">
                         </div>
                         <div class="col-8">
@@ -139,7 +496,7 @@
                     </div>
                     <div class="p-4">
                         <p>For our company, the most important thing is the safety of our clients, that is why our most
-                        important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
+                            important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
                     </div>
                 </div>
             </div>
@@ -148,13 +505,13 @@
     <section class="contianer-fluid py-5" id="form">
         <div class="pb-5 mb-4">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-12 ">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15807.112224213352!2d-72.48746368996581!3d7.918237006177162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e664512e5666415%3A0x82aac6383afa10be!2sPeugeot%20Automarcol%20C%C3%BAcuta!5e0!3m2!1ses-419!2sco!4v1699973708187!5m2!1ses-419!2sco"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <form class="py-3 px-4">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -185,9 +542,38 @@
             </div>
         </div>
     </section>
-    <footer class="bg-info m-0 p-0">
-        <div class="container info-text p-5 text-center">
-            <h1 class="fs-5">© 2023 All Rights Reserved. SERVIPLATES LLC USA.</h1>
+    <footer class="bg-info m-0 p-0 bg-2">
+        <div class="container text-white p-5 " style="
+            background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+            background-size: cover !important;
+            background-repeat: no-repeat;
+            background-position: center !important;
+            background-size: 100%;">
+
+            <div class="row pt-3">
+                <div class="col-md-4 col-12">
+                    <p class="fs-4 fw-semibold text-start">ServiPlates</p>
+                    <p class="text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu
+                        diam amet diam eteos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.
+                        Sanctus clita duojusto et tempor</p>
+                </div>
+                <div class="col-md-4 col-12 text-md-center text-start">
+                    <p class="fw-semibold">Title Content</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                </div>
+                <div class="col-md-4 col-12 text-md-center text-start">
+                    <p class="fw-semibold">Title Content</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                    <p><i class='bx bx-current-location'></i> Element</p>
+                </div>
+            </div>
+
+            <h1 class="fs-5 pt-5 mt-3 text-start">© 2023 All Rights Reserved. SERVIPLATES LLC USA.</h1>
+
+
         </div>
     </footer>
 
