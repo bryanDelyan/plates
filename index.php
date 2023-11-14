@@ -1,16 +1,27 @@
 <style>
+/* 
+
+BLUE 
+0f98f8
+2d97e2
+
+GREEN 
+#229954
+#27AE60
+*/
+:root {
+    --main: #117A65;
+    --second: #27AE60;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
-    text-decoration: none;
-
-}
-
-* {
     text-decoration: none !important;
+
 }
 
 header {
@@ -29,29 +40,26 @@ header {
     font-size: 30px;
     font-weight: 700;
     padding-left: 9%;
-    color: #0f98f8;
+    color: var(--main);
     text-decoration: none;
 }
 
-.navlist {
+.navlist,
+.navlist2 {
     display: flex;
     z-index: 1000;
 
 }
 
-.navlist a {
+.navlist a,
+.navlist2 a {
     color: black;
     margin-left: 60px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
-}
-
-.navlist a:hover {
-    font-size: 22px;
-    margin-left: 63px;
 }
 
 #menu-icon {
@@ -63,7 +71,7 @@ header {
 }
 
 .bg-info {
-    background: linear-gradient(to right, #0f98f8, #2d97e2) !important;
+    background: linear-gradient(to right, var(--main), var(--second)) !important;
 }
 
 .rounded-10 {
@@ -74,7 +82,7 @@ header {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to right, #0f98f8, #2d97e2);
+    background: linear-gradient(to right, var(--main), var(--second));
     /* o este to right, #87CEEB, #00BFFF */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,20 +107,26 @@ section .container-fluid {
 
 .info-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 53px;
+    font-size: 50px;
     line-height: 1;
     color: white;
     margin: 0 0 45px;
+
 }
 
+.shadow-2 {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.shadow-3 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 .info-text2 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 53px;
+    font-size: 50px;
     line-height: 1;
     color: rgb(0, 0, 0);
     margin: 0 0 45px;
-
 }
 
 .info-text p {
@@ -125,7 +139,7 @@ section .container-fluid {
 }
 
 .st-2 {
-    color: #0f98f8 !important;
+    color: var(--main) !important;
 }
 
 .info-text a {
@@ -250,12 +264,13 @@ section .container-fluid {
         display: block;
     }
 
-    .navlist {
+    .navlist,
+    .navlist2 {
         position: absolute;
-        top: -360% !important;
+        top: -350% !important;
         right: 0;
         width: 100%;
-        height: 17rem;
+        height: 25%;
         background: rgb(248, 249, 250);
         display: flex;
         align-items: left;
@@ -263,16 +278,17 @@ section .container-fluid {
         padding: 30px 40px;
     }
 
-    .navlist a {
+    .navlist a,
+    .navlist2 a {
         margin-left: 0;
         display: block;
-        margin: 7px 0;
+        margin: 10px 0;
 
     }
 
     .navlist.open {
         top: 72 !important;
-        transition-duration: 1s;
+        transition-duration: 0.5s;
     }
 
     .logo {
@@ -306,7 +322,7 @@ label {
 
 
 .bg-footer {
-    background-color: linear-gradient(to right, #0f98f8, #2d97e2) !important;
+    background-color: linear-gradient(to right, var(--main), var(--second)) !important;
     background-repeat: no-repeat;
 }
 </style>
@@ -340,20 +356,25 @@ label {
 </head>
 
 <body>
-    <header class="shadow bg-white st-2">
+    <header class="shadow-2 bg-white st-2">
 
         <a href="#" class="logo">SERVI PLATES</a>
-
+        <ul class="navlist2">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#examples">Examples</a></li>
+        </ul>
 
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <ul class="navlist">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Examples</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#examples">Examples</a></li>
     </ul>
-    <section class="container-fluid pb-5 bg-info st">
+    <section class="container-fluid pb-5 bg-info st" id="home">
         <div class="container p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="row">
@@ -402,7 +423,7 @@ label {
         </div>
     </section>
 
-    <section class="container-fluid pb-5 bg-light" id="plates">
+    <section class="container-fluid pb-5 bg-light" id="examples">
         <div class="p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
@@ -433,26 +454,26 @@ label {
             </div>
             <div class="container">
                 <div class="row mt-0 gx-4 gy-2">
-                    <div class="col-md-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-sm">
+                    <div class="col-md-4 col-lg-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-3">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
                             <p class="text-center fs-4">100 Plates sold</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-sm">
+                    <div class="col-md-4 col-lg-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-3">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
                             <p class="text-center fs-4">100 Plates sold</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-sm">
+                    <div class="col-md-4 col-lg-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-3">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
                             <p class="text-center fs-4">100 Plates sold</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-sm">
+                    <div class="col-md-4 col-lg-3 col-12 p-4">
+                        <div class="bg-light p-5 rounded shadow-3">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
                             <p class="text-center fs-4">100 Plates sold</p>
                         </div>
@@ -484,12 +505,12 @@ label {
 
         </div>
     </section>
-    <section id="vision" class=" bg-blue">
+    <section id="vision" class="py-md-5 bg-blue">
         <div class="container py-5">
             <div class="row pt-5">
                 <div class="col-md-6 col-12 ">
                     <div class="row">
-                        <div class="col-md-3 col-12">
+                        <div class="col-md-3 col-12 text-center">
                             <img src="https://www.serviplatesllc.com/images/why1.png" class="w-75" alt="">
                         </div>
                         <div class="col-8">
@@ -503,7 +524,7 @@ label {
                 </div>
                 <div class="col-md-6 col-12 ">
                     <div class="row">
-                        <div class="col-md-3 col-12">
+                        <div class="col-md-3 col-12 text-center">
                             <img src="https://www.serviplatesllc.com/images/why1.png" class="w-75" alt="">
                         </div>
                         <div class="col-8">
@@ -518,9 +539,9 @@ label {
             </div>
         </div>
     </section>
-    <section class="contianer-fluid py-5 bg-light" id="form">
-        <div class="pb-5 mb-4 pt-5">
-            <form class="col-md-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-sm">
+    <div class="contianer-fluid py-5 px-2 px-md-5 mx-md-5 bg-light" id="contact">
+        <div class="pb-5 mb-4 pt-5 mx-md-5 px-md-5">
+            <form class="col-md-8 col-lg-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
                 <div class="mb-3">
                     <h1 class="text-center fw-semibold fs-3 mb-5">Contact Us</h1>
                     <label for="exampleInputEmail1" class="form-label fw-semibold">Name</label>
@@ -546,7 +567,7 @@ label {
             </form>
 
         </div>
-    </section>
+    </div>
     <footer class="bg-info m-0 p-0 bg-2">
         <div class="container text-white p-5 " style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
