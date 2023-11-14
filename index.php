@@ -264,7 +264,7 @@ section .container-fluid {
         display: block;
     }
 
-    .navlist{
+    .navlist {
         position: absolute;
         top: -600% !important;
         right: 0;
@@ -337,6 +337,16 @@ label {
     background-color: linear-gradient(to right, var(--main), var(--second)) !important;
     background-repeat: no-repeat;
 }
+
+.floating-button {
+    bottom: 40px;
+    right: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
 </style>
 <!DOCTYPE html>
 <html lang="en">
@@ -388,6 +398,9 @@ label {
             <li><a href="#examples">Examples</a></li>
         </ul>
     </header>
+    <a href="https://wa.me/+573222863938" target="_blank" class="btn btn-success rounded-fill fs-2 btn-lg floating-button">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
     <section class="pb-5 bg-info st" id="home">
         <div class="container py-4 px-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
