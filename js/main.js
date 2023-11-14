@@ -1,8 +1,8 @@
 const s = ScrollReveal({
-    distance: '65px',
+    distance: '75px',
     duration: 2600,
-    delay: 450,
-    reset: true
+    delay: 470,
+    reset: false
 });
 
 s.reveal('.info-text', {

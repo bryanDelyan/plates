@@ -28,31 +28,35 @@ header {
 .logo {
     font-size: 30px;
     font-weight: 700;
-    padding-left: 3%;
+    padding-left: 9%;
     color: #0f98f8;
     text-decoration: none;
 }
 
 .navlist {
     display: flex;
+    z-index: 1000;
+    
 }
 
 .navlist a {
-    color: #0f98f8;
+    color: black;
     margin-left: 60px;
-    font-size: 17px;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
 
 .navlist a:hover {
-    border-bottom: 2px solid white;
+    font-size: 22px;
+    margin-left: 63px;
 }
 
 #menu-icon {
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 35px;
     z-index: 10001%;
     cursor: pointer;
     display: none;
@@ -99,8 +103,8 @@ section .container-fluid {
     line-height: 1;
     color: white;
     margin: 0 0 45px;
-
 }
+
 
 .info-text2 h1 {
     font-family: 'Poppins', sans-serif;
@@ -119,9 +123,11 @@ section .container-fluid {
     margin-bottom: 40px;
 
 }
-.st-2{
- color: #0f98f8 !important;
+
+.st-2 {
+    color: #0f98f8 !important;
 }
+
 .info-text a {
     display: inline-block;
     color: white;
@@ -164,9 +170,11 @@ section .container-fluid {
     color: white;
     transform: translateX(8px);
 }
-.st{
+
+.st {
     padding-top: 18vh;
 }
+
 @media (max-width : 1535px) {
     header {
         padding: 15px 3%;
@@ -234,24 +242,25 @@ section .container-fluid {
 }
 
 @media (max-width : 990px) {
-    .st{
+    .st {
         padding-top: 0px;
     }
+
     #menu-icon {
         display: block;
     }
 
     .navlist {
         position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 300px;
-        height: 40vh;
-        background: #111111;
+        top: -360% !important;
+        right: 0;
+        width: 100%;
+        height: 17rem;
+        background: rgb(248,249,250);
         display: flex;
-        align-items: center;
+        align-items: left;
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 30px 40px;
     }
 
     .navlist a {
@@ -262,7 +271,11 @@ section .container-fluid {
     }
 
     .navlist.open {
-        right: 0;
+        top: 72 !important;
+        transition-duration: 1s;
+    }
+    .logo{
+        padding-left: 5%;
     }
 }
 
@@ -327,21 +340,21 @@ label {
 
 <body>
     <header class="shadow bg-white st-2">
+        
         <a href="#" class="logo">SERVI PLATES</a>
 
-        <ul class="navlist">
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <ul class="navlist">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Examples</a></li>
         </ul>
-        <div class="bx bx-menu" id="menu-icon">
-
-        </div>
-    </header>
-    
     <section class="container-fluid pb-5 bg-info st">
-        <div class="container p-5">
+        <div class="container p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+            background-size: cover !important;">
             <div class="row">
                 <div class="col-md-6 col-12 px-md-3">
                     <div class="info-text">
@@ -354,7 +367,7 @@ label {
                             ea.
                             Non?
                         </p>
-                        <a href="#">Watch</a>
+                       
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-md-3 text-center">
@@ -372,24 +385,26 @@ label {
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
                 <div class="row">
-                    <div class="col-12 col-md-6 text-start">
+                    <div class="col-12 col-md-6 text-start ">
                         <h1 class="mb-4">About Us</h1>
                         <p>We are the main company in charge of issuing temporary plates throughout the US, we have
                             more
                             than 10 years of experience and service for the entire community of the country. With a
                             transparent and reliable legal service.</p>
-                        <a href="fw-semibold">Read More</a>
+                    
                     </div>
                     <div class="col-12 col-md-4 text-end info-img2">
-                        <img src="https://www.serviplatesllc.com/images/banner.png" class="w-50 h-100 " alt="">
+                        <img src="" class="w-100 h-100 " alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="container-fluid pb-5 bg-light" id="plates">
-        <div class="p-5">
-            <div class="col-12 mb-2 info-text2 py-5">
+        <div class="p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+            background-size: cover !important;">
+            <div class="col-12 mb-2 info-text2 py-5 pb-2">
                 <h1 class="text-center">Examples Temporary license plates</h1>
             </div>
             <div class="container">
@@ -502,44 +517,32 @@ label {
             </div>
         </div>
     </section>
-    <section class="contianer-fluid py-5" id="form">
-        <div class="pb-5 mb-4">
-            <div class="row">
-                <div class="col-md-6 col-12 ">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15807.112224213352!2d-72.48746368996581!3d7.918237006177162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e664512e5666415%3A0x82aac6383afa10be!2sPeugeot%20Automarcol%20C%C3%BAcuta!5e0!3m2!1ses-419!2sco!4v1699973708187!5m2!1ses-419!2sco"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="contianer-fluid py-5 bg-light" id="form">
+        <div class="pb-5 mb-4 pt-5">
+            <form class="w-50 mx-auto bg-white py-5 px-5 rounded">
+                <div class="mb-3">
+                    <h1 class="text-center fw-semibold fs-3 mb-5">Contact Us</h1>
+                    <label for="exampleInputEmail1" class="form-label fw-semibold">Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="col-md-6 col-12">
-                    <form class="py-3 px-4">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <label for="exampleInputEmail1" class="form-label">Telefono</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <label for="exampleInputEmail1" class="form-label">Residencia</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <button type="submit" class="btn btn-dark w-100 p-3">Submit</button>
-                    </form>
+                <div class="mb-3 mt-5">
+                    <label for="exampleInputEmail1" class="form-label fw-semibold">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-            </div>
+                <div class="mb-3 mt-5">
+                    <label for="exampleInputEmail1" class="form-label fw-semibold">Telefono</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3 mt-5">
+                    <label for="exampleInputEmail1" class="form-label fw-semibold">Residencia</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+              
+                <button type="submit" class="btn btn-dark w-100 py-3 my-4">Submit</button>
+            </form>
         </div>
     </section>
     <footer class="bg-info m-0 p-0 bg-2">
