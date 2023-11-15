@@ -240,22 +240,22 @@
                 <div class="px-xl-4 py-xl-2">
                     <div class="mb-3">
                         <label for="inputName" class="form-label fw-semibold">Name</label>
-                        <input type="text" required class="form-control" id="inputName" aria-describedby="nameHelp">
+                        <input type="text" required class="form-control" id="inputName" name="inputName" aria-describedby="nameHelp">
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputEmail" class="form-label fw-semibold">Email address</label>
-                        <input type="email" required class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                        <input type="email" required class="form-control" id="inputEmail"  name="inputEmail" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputPhone" class="form-label fw-semibold">Phone</label>
-                        <input type="tel" required class="form-control" id="inputPhone" aria-describedby="phoneHelp">
+                        <input type="tel" required class="form-control" id="inputPhone" name="inputPhone" aria-describedby="phoneHelp">
                         <div id="phoneHelp" class="form-text">We'll never share your phone number with anyone else.
                         </div>
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputResidence" class="form-label fw-semibold">Residence</label>
-                        <select class="form-control form-select" required id="inputResidence"
+                        <select class="form-control form-select"  id="inputResidence" required id="inputResidence"
                             aria-describedby="residenceHelp">
                             <?php
                             foreach ($estados_usa as $estado) {

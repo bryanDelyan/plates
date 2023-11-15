@@ -2,10 +2,10 @@ $(document).ready(function () {
     $("#contactForm").submit(function (event) {
         event.preventDefault();
 
+        var select = $('#inputResidence').val();
         // Serialize the form data
         var formData = $(this).serialize();
-        console.log(formData);
-
+        formData += '&inputResidence=' + select;
         // You can use AJAX to send the data to the server
         $.ajax({
             type: "POST",
