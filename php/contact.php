@@ -54,13 +54,11 @@ if ($con->query($query) === TRUE) {
         $mail->addAddress('isistemas@automarcol.com');
 
         // Contenido del correo
+         include './mails/plantilla.php';
+         
         $mail->isHTML(true);
         $mail->Subject = 'Nuevo registro';
-        $mail->Body = "Se ha registrado un nuevo usuario:<br><br>
-                        Nombre: $name<br>
-                        Email: $email<br>
-                        Teléfono: $phone<br>
-                        Residencia: $residence";
+        $mail->Body = $mensaje;
 
         // Enviar el correo
         $mail->send();

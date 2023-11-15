@@ -1,15 +1,19 @@
 /* 
 
 BLUE 
-0f98f8
-2d97e2
+#0f98f8
+#2d97e2
 
 GREEN 
 #229954
 #27AE60
+
+REED 
+#EA1030
+#A3081E
 */
 :root {
-    --main: #117A65;
+    --main: #229954;
     --second: #27AE60;
 }
 

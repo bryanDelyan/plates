@@ -54,7 +54,7 @@
         </ul>
     </header>
     <a href="https://wa.me/+573222863938" target="_blank"
-        class="btn btn-success rounded-fill fs-2 btn-lg floating-button">
+        class="btn btn-success rounded-4 px-4 py-2 fs-2 btn-lg floating-button">
         <i class='bx bxl-whatsapp'></i>
     </a>
     <section class="pb-5 bg-info st" id="home">
@@ -82,9 +82,6 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
     <section class="container-fluid py-5" id="about">
         <div class="container px-4 py-5">
@@ -116,6 +113,7 @@
             background-size: cover !important;">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
                 <h1 class="text-center">Examples Temporary license plates</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non deserunt labore ipsam dolorem adipisci optio debitis ameti</p>
             </div>
             <div class="container">
                 <div class="row gy-4 p-md-4 m-md-2 mt-0">
@@ -143,6 +141,7 @@
         <div class="p-5">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
                 <h1 class="text-center">Generation and marketing of the product</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non deserunt labore ipsam dolorem adipisci optio debitis ameti</p>
             </div>
             <div class="container">
                 <div class="row mt-0 gx-4 gy-2">
@@ -197,7 +196,7 @@
 
         </div>
     </section>
-    <section id="vision" class="py-md-5 bg-blue d-none">
+    <section id="vision" class="py-md-5 bg-blue ">
         <div class="container py-5">
             <div class="row pt-5">
                 <div class="col-md-6 col-12 ">
@@ -231,31 +230,37 @@
             </div>
         </div>
     </section>
-    <div class="contianer-fluid py-md-5 px-md-5 bg-light" id="contact">
-        <div class="mb-lg-4 py-lg-5 mx-lg-5 px-md-5 ">
-            <form id="contactForm" method="POST" class="col-md-9 col-lg-6 col-xl-5 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
+
+
+    <div class="contianer-fluid py-md-5 px-md-5 px-lg-2 bg-light" id="contact">
+        <div class="mb-lg-4 py-lg-5 mx-lg-2 px-md-2">
+            <form id="contactForm" method="POST"
+                class="col-md-9 col-lg-6 col-xl-4 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
                 <h1 class="text-center fw-semibold fs-3">Contact Us</h1>
                 <hr>
                 <br>
-                <div class="px-xl-4 py-xl-2">
+                <div class="">
                     <div class="mb-3">
                         <label for="inputName" class="form-label fw-semibold">Name</label>
-                        <input type="text" required class="form-control" id="inputName" name="inputName" aria-describedby="nameHelp">
+                        <input type="text" required class="form-control" id="inputName" name="inputName"
+                            aria-describedby="nameHelp">
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputEmail" class="form-label fw-semibold">Email address</label>
-                        <input type="email" required class="form-control" id="inputEmail"  name="inputEmail" aria-describedby="emailHelp">
+                        <input type="email" required class="form-control" id="inputEmail" name="inputEmail"
+                            aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputPhone" class="form-label fw-semibold">Phone</label>
-                        <input type="tel" required class="form-control" id="inputPhone" name="inputPhone" aria-describedby="phoneHelp">
+                        <input type="tel" required class="form-control" id="inputPhone" name="inputPhone"
+                            aria-describedby="phoneHelp">
                         <div id="phoneHelp" class="form-text">We'll never share your phone number with anyone else.
                         </div>
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputResidence" class="form-label fw-semibold">Residence</label>
-                        <select class="form-control form-select"  id="inputResidence" required id="inputResidence"
+                        <select class="form-control form-select" id="inputResidence" required name="inputResidence"
                             aria-describedby="residenceHelp">
                             <?php
                             foreach ($estados_usa as $estado) {
@@ -269,14 +274,15 @@
                         <label for="inputMessage" class="form-label fw-semibold">Message</label>
                         <textarea class="form-control" required id="inputMessage" rows="3"></textarea>
 
-                </div>
-                <br>
-                <hr>
-                <button type="submit" class="btn btn-dark w-100 py-2 my-4">Submit</button>
+                    </div>
+                    <br>
+                    <hr>
+                    <button type="submit" class="btn btn-dark w-100 py-3 my-4">Send Form</button>
             </form>
         </div>
     </div>
-    <footer class="bg-info m-0 p-0 bg-2">
+    </div>
+    <footer class="bg-info m-0 p-0 bg-footer">
         <div class="container text-white p-5 " style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;
@@ -310,6 +316,7 @@
 
         </div>
     </footer>
+
 
 
     <script src="https://unpkg.com/scrollreveal"></script>
