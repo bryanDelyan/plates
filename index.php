@@ -265,6 +265,9 @@
                         </select>
                         <div id="residenceHelp" class="form-text">Choose your residence state.</div>
                     </div>
+                    <div class="mb-3 mt-5">
+                        <label for="inputMessage" class="form-label fw-semibold">Message</label>
+                        <textarea class="form-control" required id="inputMessage" rows="3"></textarea>
 
                 </div>
                 <br>
