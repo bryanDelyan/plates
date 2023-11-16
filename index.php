@@ -59,8 +59,13 @@
         <i class='bx bxl-whatsapp'></i>
     </a>
     <section class="pb-5 bg-info st" id="home">
-        <div class="container py-4 px-3" style="   background-image: url('./img/7177399-removebg-preview.png') !important;
-            background-size: cover !important;">
+        <div class="container py-4 px-3" style="   
+        background-image: url('./img/img3.png') !important;
+            background-size: 100% !important;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            ">
             <div class="row">
                 <div class="col-md-6 col-12 px-md-3">
                     <div class="info-text">
@@ -101,7 +106,7 @@
 
                     </div>
                     <div class="col-12 col-md-6 text-end info-img2 p-3">
-                        <img src="https://s7d2.scene7.com/is/image/TWCNews/es_forged_temp_licenseplatespk117085059920"
+                        <img src="./img/car.jpeg"
                             class="img-fluid rounded shadow-3" alt="">
                     </div>
                 </div>
