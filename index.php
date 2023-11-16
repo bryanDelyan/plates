@@ -9,7 +9,7 @@
     <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
     <meta name="author" content="Sebastian Vargaz">
     <!-- Css link -->
-    <link rel="stylesheet" href="css/styles.css">
+
     <!-- Boxicons link -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- remixicons link -->
@@ -27,7 +27,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
-    <title>Plates</title>
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <title>ServiPlatesExpress</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="js/controls.js"></script>
 </head>
@@ -35,7 +36,7 @@
 <body>
     <header class="shadow-2 bg-white st-2">
 
-        <a href="#" class="logo">SERVI PLATES</a>
+        <a href="#" class="logo">Servi Plates Express</a>
         <ul class="navlist2">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -54,11 +55,11 @@
         </ul>
     </header>
     <a href="https://wa.me/+573222863938" target="_blank"
-        class="btn btn-success rounded-4 px-4 py-2 fs-2 btn-lg floating-button">
+        class="btn btn-success shadow px-4 py-2 fs-2 btn-lg floating-button">
         <i class='bx bxl-whatsapp'></i>
     </a>
     <section class="pb-5 bg-info st" id="home">
-        <div class="container py-4 px-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+        <div class="container py-4 px-3" style="   background-image: url('./img/7177399-removebg-preview.png') !important;
             background-size: cover !important;">
             <div class="row">
                 <div class="col-md-6 col-12 px-md-3">
