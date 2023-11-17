@@ -265,7 +265,7 @@ section .container-fluid {
 
 @media (max-width : 990px) {
     .video-container {
-        height: 65rem !important;
+        height: 80vh;
     }
 
     .st {
@@ -366,7 +366,7 @@ label {
 
 .video-container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     box-shadow: inset 0px -48px 85px -15px black;
 }
