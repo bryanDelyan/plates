@@ -465,7 +465,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
         <section>
             <div class="container py-md-4 px-3 position-relative z-index-1">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 pt-md-5">
                         <div class="info-text text-light">
                             <h1>Discover Temporary License Plates in the USA</h1>
                             <p class="text-white">
