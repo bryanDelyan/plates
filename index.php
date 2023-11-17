@@ -265,7 +265,7 @@ section .container-fluid {
 
 @media (max-width : 990px) {
     .video-container {
-        height: 98% !important;
+        height: 65rem !important;
     }
 
     .st {
@@ -366,7 +366,7 @@ label {
 
 .video-container {
     width: 100%;
-    height: 85%;
+    height: 100vh;
     overflow: hidden;
     box-shadow: inset 0px -48px 85px -15px black;
 }
@@ -469,12 +469,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                         <div class="info-text text-light">
                             <h1>Discover Temporary License Plates in the USA</h1>
                             <p class="text-white">
-                                Explore the unparalleled convenience offered by our temporary license plates, designed
-                                to cater to your needs within the United States. Whether you're in the process of
-                                acquiring your official license plates or need a temporary solution, our service ensures
-                                a seamless experience. Trust us to provide you with a hassle-free solution for your
-                                temporary license plate needs, allowing you to navigate the roads with confidence and
-                                ease.
+                            Experience the unique convenience of our temporary license plates in the USA. 
+                            Get a hassle-free solution to your temporary license plate needs and ride with confidence.
                             </p>
 
                         </div>
@@ -497,15 +493,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                 <div class="row">
                     <div class="col-12 col-md-7" style="text-align: justify;">
                         <h1 class="mb-4">Welcome to Our Journey</h1>
-                        <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing
-                            temporary plates
-                            across the United States. With over a decade of unwavering commitment, we have been
-                            dedicated to serving communities nationwide with a service that is both transparent and
-                            legally sound.</p>
-                        <p>As pioneers in the industry, we bring you more than just temporary plates; we bring you peace
-                            of mind. Our experience spans over 10 years, ensuring that every member of our diverse
-                            community receives top-notch service. Trust us for a reliable, legal, and hassle-free
-                            experience.</p>
+                        <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing temporary plates across the United States. With unwavering commitment, we dedicate ourselves to serving communities nationwide with transparent and legally sound services.</p>
+                        <p>As pioneers in the industry, we offer more than just temporary plates; we bring you peace of mind. Trust us for a reliable, legal, and hassle-free experience.</p>
                     </div>
                     <div class="col-12 col-md-5 text-end info-img2 px-md-5">
                         <div class="px-lg-3 py-4 py-md-2">
@@ -738,7 +727,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
 
             <div class="row pt-5 mt-3">
                 <div class="col-12">
-                    <p class="text-start fs-5">© 2023 All Rights Reserved. SERVIPLATES LLC USA.</p>
+                    <p class="text-start fs-5">© 2023 All Rights Reserved. SERVIPLATES Express USA.</p>
                     <p class="text-start p-0 m-0">Terms of Service | Privacy Policy | Data Treatment Policy</p>
                     <p class="text-start p-0 m-0">All content and rights are reserved by IUTECK SERVICE.</p>
                 </div>
