@@ -1,24 +1,27 @@
 $(document).ready(function () {
-    $("#contactForm").submit(function (event) {
-        event.preventDefault();
-
-        var select = $('#inputResidence').val();
-        // Serialize the form data
-        var formData = $(this).serialize();
-        formData += '&inputResidence=' + select;
-        // You can use AJAX to send the data to the server
-        $.ajax({
-            type: "POST",
-            url: "./php/contact.php", // Replace with your server endpoint
-            data: formData,
-            success: function (response) {
-                console.log(response);
-                // Handle the server response here
-            },
-            error: function (error) {
-                console.error("Error:", error);
-                // Handle errors here
-            }
-        });
+  $("#contactForm").submit(function (event) {
+    event.preventDefault();
+    var select = $('#inputResidence').val();
+    var formData = $(this).serialize();
+    formData += '&inputResidence=' + select;
+    $("#contactForm")[0].reset();
+ 
+    $.ajax({
+      type: "POST",
+      url: "./php/contact.php", 
+      data: formData,
+      success: function (response) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Success!',
+            text: 'Your form has been submitted successfully.',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'Great!',
+          });
+      },
+      error: function (error) {
+        console.error("Error:", error);
+      },
     });
+  });
 });

@@ -377,6 +377,7 @@ $mensaje =
                         <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">Número de teléfono: '.$phone.'</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">Correo electrónico: '.$email.'</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">Residencia: '.$residence.'</p>
+                        <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">'.$mensagge.'</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px;">&nbsp;</p>
                       
                     </div>

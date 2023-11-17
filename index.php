@@ -14,8 +14,8 @@ REED
 #A3081E
 */
 :root {
-    --main: #023d9b;
-    --second: rgb(30, 100, 212);
+    --main: #1C2833;
+    --second: #283747;
 }
 
 * {
@@ -41,7 +41,7 @@ header {
 }
 
 .logo {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 700;
     padding-left: 9%;
     color: var(--main);
@@ -56,11 +56,11 @@ header {
 
 .navlist a,
 .navlist2 a {
-    color: black;
+    color: var(--second);
     margin-left: 60px;
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 620;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
@@ -105,7 +105,7 @@ section {
 
 section .container-fluid {
     padding: 0 8%;
-    padding-top: 15vh !important;
+    padding-top: 13vh !important;
 }
 
 .info-text h1 {
@@ -190,10 +190,14 @@ section .container-fluid {
 }
 
 .st {
-    padding-top: 18vh;
+    padding-top: 8%;
 }
 
 @media (max-width : 1535px) {
+    .navlist a {
+        margin-right: 50px;
+    }
+
     header {
         padding: 15px 3%;
         transition: .2s;
@@ -239,7 +243,7 @@ section .container-fluid {
 
     .info-text h1,
     .info-text2 h1 {
-        font-size: 34px !important;
+        font-size: 32px !important;
         padding: 5px;
     }
 
@@ -261,7 +265,7 @@ section .container-fluid {
 
 @media (max-width : 990px) {
     .video-container {
-        height: 95% !important;
+        height: 98% !important;
     }
 
     .st {
@@ -307,7 +311,7 @@ section .container-fluid {
     }
 
     .navlist.open {
-        top: 70 !important;
+        top: 67 !important;
         transition-duration: 0.5s;
     }
 
@@ -354,14 +358,15 @@ label {
 
 .floating-button {
     bottom: 40px;
-    right: 50px;
+    right: 40px;
     position: fixed;
     z-index: 1000;
+    font-size: 40px !important;
 }
 
 .video-container {
     width: 100%;
-    height: 80%;
+    height: 85%;
     overflow: hidden;
     box-shadow: inset 0px -48px 85px -15px black;
 }
@@ -417,6 +422,12 @@ label {
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/controls.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
+"></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
+" rel="stylesheet">
 </head>
 
 <body>
@@ -441,35 +452,34 @@ label {
         </ul>
     </header>
     <a href="https://wa.me/+573222863938" target="_blank"
-        class="btn btn-success shadow px-4 py-2 fs-2 btn-lg floating-button">
+        class="btn btn-success shadow px-4 py-3 px-md-3 py-md-3 shadow  floating-button">
         <i class='bx bxl-whatsapp'></i>
     </a>
 
 
-    <div class="video-container mb-md-2 position-relative st" id="video_marca">
+    <div class="video-container mb-md-2 position-relative st shadow" id="home">
         <video autoplay loop muted class="position-absolute top-0 left-0">
             <source src="./img/video.mp4" type="video/mp4">
         </video>
         <div class="overlay"></div>
         <section>
-            <div class="container py-4 px-3 position-relative z-index-1">
+            <div class="container py-md-4 px-3 position-relative z-index-1">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <div class="info-text text-light">
                             <h1>Discover Temporary License Plates in the USA</h1>
                             <p class="text-white">
-                                Experience the convenience of our temporary license plates in the United States. Lorem
-                                ipsum
-                                dolor sit amet consectetur adipisicing elit. Itaque voluptate, tenetur laudantium illo
-                                id
-                                in,
-                                ad sunt ab esse, quisquam sed inventore beatae laboriosam autem dignissimos iure quas
-                                ea.
-                                Non?
+                                Explore the unparalleled convenience offered by our temporary license plates, designed
+                                to cater to your needs within the United States. Whether you're in the process of
+                                acquiring your official license plates or need a temporary solution, our service ensures
+                                a seamless experience. Trust us to provide you with a hassle-free solution for your
+                                temporary license plate needs, allowing you to navigate the roads with confidence and
+                                ease.
                             </p>
+
                         </div>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-5 text-center">
                         <div class="info-img py-md-5">
                             <img src="img/track.png" class="img-fluid rounded shadow-3"
                                 alt="Temporary License Plates Image">
@@ -485,7 +495,7 @@ label {
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
                 <div class="row">
-                    <div class="col-12 col-md-6" style="text-align: justify;">
+                    <div class="col-12 col-md-7" style="text-align: justify;">
                         <h1 class="mb-4">Welcome to Our Journey</h1>
                         <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing
                             temporary plates
@@ -497,9 +507,10 @@ label {
                             community receives top-notch service. Trust us for a reliable, legal, and hassle-free
                             experience.</p>
                     </div>
-                    <div class="col-12 col-md-6 text-end info-img2 px-md-5">
+                    <div class="col-12 col-md-5 text-end info-img2 px-md-5">
                         <div class="px-lg-3 py-4 py-md-2">
-                            <img src="./img/car.jpeg" class="w-100 h-100 rounded shadow-3" alt="Company Image">
+                            <img src="https://i.pinimg.com/originals/eb/32/6d/eb326d6a56cd39b4778be5db81efa324.jpg"
+                                class="img-fluid rounded shadow-3" alt="Company Image">
                         </div>
                     </div>
                 </div>
@@ -509,7 +520,7 @@ label {
 
 
     <section class="container-fluid pb-5 bg-light" id="examples">
-        <div class="p-5" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
+        <div class="p-md-5 p-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
                 <h1 class="text-center">Embark on a Journey of Unique License Plate Designs</h1>
@@ -541,45 +552,46 @@ label {
     </section>
 
     <section class="container-fluid pb-5 bg-white" id="plates">
-        <div class="p-5">
-            <div class="col-12 mb-2 info-text2 py-5 pb-2">
-                <h1 class="text-center">Generation and marketing of the product</h1>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non deserunt labore
-                    ipsam dolorem adipisci optio debitis ameti</p>
+        <div class="p-md-5 p-3">
+            <div class="col-12 mb-2 info-text2 py-5 pb-0">
+                <h1 class="text-center">Generation and Marketing of the Product</h1>
             </div>
-            <div class="container">
+            <div class="container left">
                 <div class="row mt-0 gx-4 gy-2">
-                    <div class="col-md-4 col-lg-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-3">
+                    <div class="col-md-4 col-12 p-4">
+                        <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4">100 Plates sold</p>
+                            <p class="text-center fs-4 fw-semibold">Innovative Designs</p>
+                            <p class="text-center">Explore our diverse range of plates featuring innovative designs.
+                                Each plate is a unique expression of style and functionality, resonating with our
+                                customers' preferences.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-3">
+                    <div class="col-md-4  col-12 p-4">
+                        <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4">100 Plates sold</p>
+                            <p class="text-center fs-4 fw-semibold">Customer Satisfaction</p>
+                            <p class="text-center">Our success is measured by the satisfaction of our customers. Join
+                                the community of happy plate owners who trust and appreciate the quality and service we
+                                provide.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-3">
+                    <div class="col-md-4 col-12 p-4">
+                        <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4">100 Plates sold</p>
+                            <p class="text-center fs-4 fw-semibold">Future Innovations</p>
+                            <p class="text-center">Stay tuned for future innovations as we continue to expand our
+                                product line. We are dedicated to bringing you cutting-edge designs and solutions in the
+                                world of license plates.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-3 col-12 p-4">
-                        <div class="bg-light p-5 rounded shadow-3">
-                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4">100 Plates sold</p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
     </section>
+
     <section class="bg-info info-text pt-5 pb-2" id="states">
-        <div style="
+        <div class="py-md-5" style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
 
@@ -591,7 +603,7 @@ label {
                     <?php
                         include './php/locations.php';
                         foreach ($estados_usa as $estado) {
-                            echo '<div class="col-6 col-md-2 text-white fs-6 pb-3">'.$estado['estado'].'</div>';
+                            echo '<div class="col-6 col-md-2 text-white fs-6 pb-3"><i class="bx bx-location-plus"></i>'.$estado['estado'].'</div>';
                         }
                         ?>
                 </div>
@@ -601,34 +613,50 @@ label {
         </div>
     </section>
     <section id="vision" class="py-md-5 bg-blue ">
-        <div class="container py-5">
-            <div class="row pt-5">
-                <div class="col-md-6 col-12 ">
+        <div class="container py-5 right">
+            <div class="row pt-5 gy-3">
+                <div class="col-md-6 col-12 py-5">
                     <div class="row">
                         <div class="col-md-3 col-12 text-center">
-                            <img src="https://www.serviplatesllc.com/images/why1.png" class="w-50" alt="">
+                            <svg class="w-50 h-50 mx-auto mt-4 text-gray-800 " aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M8 9h2v5m-2 0h4M9.408 5.5h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
                         </div>
                         <div class="col-8">
-                            <h1 class="text-start mt-4">Our Vission</h1>
+                            <h1 class="text-md-start mt-4 text-center">Our Vision</h1>
                         </div>
                     </div>
                     <div class="p-4">
-                        <p>For our company, the most important thing is the safety of our clients, that is why our most
-                            important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
+                        <p style="text-align: justify !important;">At ServiPlates, we envision a future where every road journey begins with confidence and
+                            security. Our commitment is to redefine safety standards by providing innovative and
+                            efficient solutions for issuing temporary plates. We strive to be pioneers in reducing
+                            risks, ensuring the well-being of our clients through the seamless and legal acquisition of
+                            temporary plates.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 ">
+                <div class="col-md-6 col-12 py-5">
                     <div class="row">
                         <div class="col-md-3 col-12 text-center">
-                            <img src="https://www.serviplatesllc.com/images/why1.png" class="w-50" alt="">
+                            <svg class="w-50 h-50 mx-auto mt-4 text-gray-800 " aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M8 9h2v5m-2 0h4M9.408 5.5h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
                         </div>
                         <div class="col-8">
-                            <h1 class="text-start mt-4">Our Vission</h1>
+                            <h1 class="text-md-start mt-4 text-center">Our Mission</h1>
                         </div>
                     </div>
-                    <div class="p-4">
-                        <p>For our company, the most important thing is the safety of our clients, that is why our most
-                            important goal is to reduce risk and issue temporary plates easily, quickly and legally.</p>
+                    <div class="p-4" style="text-align: justify !important;">
+                        <p>Driven by a passion for safety, our mission at ServiPlates is to empower our clients with the
+                            means to navigate the roads securely. We are dedicated to minimizing risks by facilitating
+                            the swift and legal issuance of temporary plates. Our mission is rooted in ensuring the
+                            safety and satisfaction of our clients, providing a foundation for worry-free journeys and
+                            promoting responsible road practices.</p>
                     </div>
                 </div>
             </div>
@@ -636,10 +664,11 @@ label {
     </section>
 
 
+
     <div class="contianer-fluid py-md-5 px-md-5 px-lg-2 bg-light" id="contact">
-        <div class="mb-lg-4 py-lg-5 mx-lg-2 px-md-2">
+        <div class="mb-lg-4 py-md-5 mx-lg-2 px-md-2">
             <form id="contactForm" method="POST"
-                class="col-md-9 col-lg-6 col-xl-4 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3">
+                class="col-md-9 col-lg-6 col-xl-4 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3 py-md-5">
                 <h1 class="text-center fw-semibold fs-3">Contact Us</h1>
                 <hr>
                 <br>
@@ -676,7 +705,8 @@ label {
                     </div>
                     <div class="mb-3 mt-5">
                         <label for="inputMessage" class="form-label fw-semibold">Message</label>
-                        <textarea class="form-control" required id="inputMessage" rows="3"></textarea>
+                        <textarea class="form-control" required id="inputMessage" name="inputMessage"
+                            rows="3"></textarea>
 
                     </div>
                     <br>
@@ -687,7 +717,7 @@ label {
     </div>
     </div>
     <footer class="bg-info m-0 p-0 bg-footer">
-        <div class="container text-white p-5 " style="
+        <div class="container text-white p-md-5 p-3 " style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;
             background-repeat: no-repeat;
@@ -695,28 +725,24 @@ label {
             background-size: 100%;">
 
             <div class="row pt-3">
-                <div class="col-md-4 col-12">
-                    <p class="fs-4 fw-semibold text-start">ServiPlates</p>
-                    <p class="text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu
-                        diam amet diam eteos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.
-                        Sanctus clita duojusto et tempor</p>
-                </div>
-                <div class="col-md-4 col-12 text-md-center text-start">
-                    <p class="fw-semibold">Title Content</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
-                </div>
-                <div class="col-md-4 col-12 text-md-center text-start">
-                    <p class="fw-semibold">Title Content</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
-                    <p><i class='bx bx-current-location'></i> Element</p>
+                <div class="col-12">
+                    <p class="fs-4 fw-semibold text-start">Serviplates Express</p>
+                    <p style="text-align: justify;">Explore the convenience and efficiency of our temporary license
+                        plates in
+                        the United States. At ServiPlates, we prioritize the safety and satisfaction of our clients by
+                        providing a seamless process for obtaining temporary plates. Trust us to make your journey
+                        worry-free with our quick, legal, and reliable temporary plate solutions.</p>
                 </div>
             </div>
 
-            <h1 class="fs-5 pt-5 mt-3 text-start">© 2023 All Rights Reserved. SERVIPLATES LLC USA.</h1>
 
+            <div class="row pt-5 mt-3">
+                <div class="col-12">
+                    <p class="text-start fs-5">© 2023 All Rights Reserved. SERVIPLATES LLC USA.</p>
+                    <p class="text-start p-0 m-0">Terms of Service | Privacy Policy | Data Treatment Policy</p>
+                    <p class="text-start p-0 m-0">All content and rights are reserved by IUTECK SERVICE.</p>
+                </div>
+            </div>
 
         </div>
     </footer>

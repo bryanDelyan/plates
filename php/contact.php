@@ -25,9 +25,10 @@ $name = $_POST['inputName'];
 $email = $_POST['inputEmail'];
 $phone = $_POST['inputPhone'];
 $residence = $_POST['inputResidence'];
+$mensagge = $_POST['inputMessage'];
 
 // Preparar la consulta SQL para la inserción
-$query = "INSERT INTO form (nombre, email, telefono, residencia) VALUES ('$name', '$email', '$phone', '$residence')";
+$query = "INSERT INTO form (nombre, email, telefono, residencia, mensagge) VALUES ('$name', '$email', '$phone', '$residence', '$mensagge')";
 
 // Ejecutar la consulta
 if ($con->query($query) === TRUE) {
@@ -45,7 +46,7 @@ if ($con->query($query) === TRUE) {
         $mail->SMTPAuth = true;
         $mail->Username = 'no-responder@automarcol.com';
         $mail->Password = 'hbkqrkntshuzgkcu';
-        $mail->setFrom('no-responder@automarcol.com', 'DEV MAILER');
+        $mail->setFrom('no-responder@automarcol.com', 'Contact Form');
         $mail->IsHTML(true);
         $mail->CharSet = 'UTF-8';
         // include './plantilla_1.php';
@@ -57,19 +58,16 @@ if ($con->query($query) === TRUE) {
          include './mails/plantilla.php';
          
         $mail->isHTML(true);
-        $mail->Subject = 'Nuevo registro';
+        $mail->Subject = '✍️ Nuevo registro';
         $mail->Body = $mensaje;
 
         // Enviar el correo
         $mail->send();
-        echo 'Correo enviado correctamente';
     } catch (Exception $e) {
         echo 'Error al enviar el correo: ', $mail->ErrorInfo;
     }
     
-} else {
-    echo "Error al insertar datos: " . $con->error;
-}
+} 
 
 // Cerrar la conexión
 $con->close();
