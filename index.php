@@ -502,10 +502,6 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                                 class="img-fluid rounded shadow-3" alt="Company Image">
                         </div>
                     </div>
-                    <div class="col-12">
-                        <p>Rastrear Vin</p>
-                        <input type="text" class="fom-control w-100" name="" id="">
-                    </div>
                 </div>
             </div>
         </div>
