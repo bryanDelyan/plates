@@ -53,7 +53,6 @@ if ($con->query($query) === TRUE) {
 
         // Configuración del remitente y destinatario
         $mail->addAddress('bryansepulveda390@gmail.com');
-
         // Contenido del correo
          include './mails/plantilla.php';
          

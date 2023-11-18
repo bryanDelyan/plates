@@ -48,6 +48,7 @@ header {
     text-decoration: none;
 }
 
+
 .navlist,
 .navlist2 {
     display: flex;
@@ -136,10 +137,9 @@ section .container-fluid {
 .info-text p {
     color: rgb(0, 0, 0);
     font-size: 18px;
-    line-height: 1.9;
-    text-align: justify;
     margin-bottom: 40px;
-
+    text-align: justify;
+    line-height: 1.9;
 }
 
 .st-2 {
@@ -150,7 +150,6 @@ section .container-fluid {
     display: inline-block;
     color: white;
     background: #000000;
-    /*o tranparent */
     border: 1px solid transparent;
     padding: 12px 30px;
     line-height: 1.4;
@@ -160,6 +159,12 @@ section .container-fluid {
     text-transform: uppercase;
     transition: all .55s ease;
 
+}
+.img-placa {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16% !important;
+    display: block; /* Esto es importante para que el margin:auto funcione */
 }
 
 .info-text a:hover {
@@ -190,7 +195,7 @@ section .container-fluid {
 }
 
 .st {
-    padding-top: 8%;
+    padding-top: 6%;
 }
 
 @media (max-width : 1535px) {
@@ -238,7 +243,10 @@ section .container-fluid {
 
     .info-text {
         padding-top: 115px;
+    }
 
+    .info-text p {
+        line-height: 1.8 !important;
     }
 
     .info-text h1,
@@ -264,8 +272,10 @@ section .container-fluid {
 }
 
 @media (max-width : 990px) {
-    .video-container {
-        height: 100vh;
+
+
+    .info-text p {
+        line-height: 1.8 !important;
     }
 
     .st {
@@ -321,6 +331,25 @@ section .container-fluid {
 }
 
 @media (max-width : 680px) {
+    .video-container {
+        width: 100%;
+        height: 92vh !important;
+    }
+
+    p {
+        text-align: justify !important;
+        font-size: 16px !important;
+    }
+
+    .img-placa {
+        width: 260px !important;
+        margin-top: 6px !important;
+    }
+
+    .info-text p {
+        line-height: 1.7 !important;
+    }
+
     .info-img {
         width: 100%;
         height: auto;
@@ -433,7 +462,10 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
 <body>
     <header class="shadow-2 bg-white st-2">
 
-        <a href="#" class="logo">Serviplates Express USA</a>
+        <a href="#" class="logo">Serviplates Express
+            <span style="color: #b22234; font-size: 18px;">U</span><span
+                style="color: blue; font-size: 18px;">S</span><span
+                style="color: #b22234; font-size: 18px;">A</span></a>
         <ul class="navlist2">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -469,15 +501,18 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                         <div class="info-text text-light">
                             <h1>Discover Temporary License Plates in the USA</h1>
                             <p class="text-white">
-                            Experience the unique convenience of our temporary license plates in the USA. 
-                            Get a hassle-free solution to your temporary license plate needs and ride with confidence.
+                                Experience the unparalleled convenience of ServiPlates Express, your go-to solution for
+                                temporary license plates in the USA. Navigating the roads has never been easier with our
+                                hassle-free services. Whether you're a new car owner, in the process of vehicle
+                                registration, or simply in need of a temporary solution, we've got you covered.
                             </p>
+                           
 
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-lg-5 text-center">
                         <div class="info-img py-md-5">
-                            <img src="img/track.png" class="img-fluid rounded shadow-3 my-auto"
+                            <img src="img/track.png" class="img-fluid rounded shadow-3 img-placa"
                                 alt="Temporary License Plates Image">
                         </div>
                     </div>
@@ -491,15 +526,16 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
                 <div class="row">
-                    <div class="col-12 col-md-7" style="text-align: justify;">
+                    <div class="col-12 col-md-6" style="text-align: justify;">
                         <h1 class="mb-4">Welcome to Our Journey</h1>
-                        <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing temporary plates across the United States. With unwavering commitment, we dedicate ourselves to serving communities nationwide with transparent and legally sound services.</p>
-                        <p>As pioneers in the industry, we offer more than just temporary plates; we bring you peace of mind. Trust us for a reliable, legal, and hassle-free experience.</p>
+                        <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing
+                            temporary plates across the United States. With unwavering commitment, we dedicate ourselves
+                            to serving communities nationwide with transparent and legally sound services.</p>
+                        <p>As pioneers in the industry, we offer more than just temporary plates; we bring you peace of
+                            mind. Trust us for a reliable, legal, and hassle-free experience.</p>
                     </div>
-                    <div class="col-12 col-md-5 text-end info-img2 px-md-5">
-                        <div class="px-lg-3 py-4 py-md-2">
-                            
-                          
+                    <div class="col-12 col-md-6 text-end info-img2 mr-5">
+                        <div class="px-lg-3 py-4 py-md-2 mx-md-3 text-end ">
                             <img src="https://images.pexels.com/photos/193021/pexels-photo-193021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 class="img-fluid rounded shadow-3" alt="Company Image">
                         </div>
@@ -621,7 +657,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                         </div>
                     </div>
                     <div class="p-4">
-                        <p style="text-align: justify !important;">At ServiPlates, we envision a future where every road journey begins with confidence and
+                        <p style="text-align: justify !important;">At ServiPlates, we envision a future where every road
+                            journey begins with confidence and
                             security. Our commitment is to redefine safety standards by providing innovative and
                             efficient solutions for issuing temporary plates. We strive to be pioneers in reducing
                             risks, ensuring the well-being of our clients through the seamless and legal acquisition of
