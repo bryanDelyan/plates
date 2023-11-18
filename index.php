@@ -265,7 +265,7 @@ section .container-fluid {
 
 @media (max-width : 990px) {
     .video-container {
-        height: 80vh;
+        height: 100vh;
     }
 
     .st {
@@ -433,7 +433,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
 <body>
     <header class="shadow-2 bg-white st-2">
 
-        <a href="#" class="logo">Serviplates Express</a>
+        <a href="#" class="logo">Serviplates Express USA</a>
         <ul class="navlist2">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -498,7 +498,9 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                     </div>
                     <div class="col-12 col-md-5 text-end info-img2 px-md-5">
                         <div class="px-lg-3 py-4 py-md-2">
-                            <img src="https://i.pinimg.com/originals/eb/32/6d/eb326d6a56cd39b4778be5db81efa324.jpg"
+                            
+                          
+                            <img src="https://images.pexels.com/photos/193021/pexels-photo-193021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 class="img-fluid rounded shadow-3" alt="Company Image">
                         </div>
                     </div>
