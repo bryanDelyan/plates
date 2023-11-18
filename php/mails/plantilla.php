@@ -368,8 +368,8 @@ $mensaje =
                   <tr>
                     <td>
                       <div style="font-size: 14px; padding: 15px; line-height: 160%; text-align: center; word-wrap: break-word;">
-                      <img style="width: 350px; margin-bottom: 10px;" src="https://img.freepik.com/vector-gratis/fondo-gente-confirmando-lista-comprobacion-gigante_23-2148091649.jpg?w=740&t=st=1700087787~exp=1700088387~hmac=e754a90d40058e742f3c747d298b29b56bbb60ac5602df87efd7f7f16672a9dd" />
-                      <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">Espero que todos estén teniendo un gran día. Me complace informarles que hemos recibido una emocionante solicitud de contacto a través de nuestro formulario "Contáctanos" en nuestro sitio web. Un cliente interesado en nuestros servicios ha expresado su deseo de ser contactado y es fundamental que nos pongamos en contacto con él lo antes posible para brindarle una atención excepcional.</p>
+                      <img style="width: 350px; margin-bottom: 10px;" src="./img/logoServi.png>
+                      <p style="line-height: 160%; text-align: justify; margin: 0px; color:black">Hola, te queremos informar que haz recibido un correo de ServiPlateExpress.</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px;color:black ">&nbsp;</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px;">A continuación, encontrarán los detalles de contacto del cliente:</p>
                         <p style="line-height: 160%; text-align: justify; margin: 0px;">&nbsp;</p>
