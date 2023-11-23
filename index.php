@@ -420,7 +420,7 @@ label {
 }
 </style>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- SEO OPEN -->
@@ -431,16 +431,15 @@ label {
         content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
     <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Serviplates Express">
+    <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
         content="Get reliable temporary plates and insurance services in the United States.">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
-    <meta name="title" content="ServiplatesExpressUSA">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="ServiplatexpressUSA">
     <meta name="language" content="Spanish">
     <meta name="revisit-after" content="1 days">
-    <meta name="author" content="ServiplatesExpressUSA">
+    <meta name="author" content="ServiplatexpressUSA">
     <meta property="og:type" content="article" />
     <link rel="icon" href="./img/logo.png" />
     <!-- SEO CLOSED -->
