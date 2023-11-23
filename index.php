@@ -160,11 +160,13 @@ section .container-fluid {
     transition: all .55s ease;
 
 }
+
 .img-placa {
     margin-left: auto;
     margin-right: auto;
     margin-top: 16% !important;
-    display: block; /* Esto es importante para que el margin:auto funcione */
+    display: block;
+    /* Esto es importante para que el margin:auto funcione */
 }
 
 .info-text a:hover {
@@ -421,15 +423,26 @@ label {
 <html lang="en">
 
 <head>
+    <!-- SEO OPEN -->
+    <title>Serviplates Express - Get Reliable Temporary Plates and Insurance Services</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
+    <meta name="description" content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
     <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
-    <meta name="author" content="Sebastian Vargaz">
-    <!-- Css link -->
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Serviplates Express">
+    <meta property="og:description" content="Get reliable temporary plates and insurance services in the United States.">
+    <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
+    <meta property="og:url" content="https://serviplatexpressusa.com/">
+    <meta name="title" content="ServiplatesExpressUSA">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="ServiplatesExpressUSA">
+    <meta property="og:type" content="article" />
+    <link rel="icon" href="./img/logo.png" />
+    <!-- SEO CLOSED -->
 
-    <!-- Boxicons link -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- remixicons link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -447,7 +460,6 @@ label {
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Serviplates Express</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/controls.js"></script>
@@ -506,7 +518,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
                                 hassle-free services. Whether you're a new car owner, in the process of vehicle
                                 registration, or simply in need of a temporary solution, we've got you covered.
                             </p>
-                           
+
 
                         </div>
                     </div>
