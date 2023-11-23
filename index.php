@@ -429,7 +429,7 @@ label {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
-    <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
+    <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage,Serviplates, serviplates">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
