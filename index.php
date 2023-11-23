@@ -471,7 +471,7 @@ label {
     https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
     " rel="stylesheet">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZXWV790NE"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRHGX2FHE7"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -480,7 +480,7 @@ label {
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-4ZXWV790NE');
+    gtag('config', 'G-WRHGX2FHE7');
     </script>
 </head>
 
