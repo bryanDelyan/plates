@@ -427,11 +427,13 @@ label {
     <title>Serviplates Express - Get Reliable Temporary Plates and Insurance Services</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
+    <meta name="description"
+        content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
     <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Serviplates Express">
-    <meta property="og:description" content="Get reliable temporary plates and insurance services in the United States.">
+    <meta property="og:description"
+        content="Get reliable temporary plates and insurance services in the United States.">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
     <meta name="title" content="ServiplatesExpressUSA">
@@ -464,11 +466,23 @@ label {
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/controls.js"></script>
     <script src="
-https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
-"></script>
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
+    "></script>
     <link href="
-https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
-" rel="stylesheet">
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
+    " rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZXWV790NE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4ZXWV790NE');
+    </script>
 </head>
 
 <body>
