@@ -429,7 +429,7 @@ label {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
-    <meta name="keywords" content="temporary plates, insurance, vehicle protection, United States, auto coverage,Serviplates, serviplates">
+    <meta name="keywords" content="plates,placas,temporary plates,plates usa,plates services,smog,seguros,placas temporales,inspecciones de auto,titulos de auto, serviplates">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
@@ -442,6 +442,9 @@ label {
     <meta name="author" content="ServiplatexpressUSA">
     <meta property="og:type" content="article" />
     <link rel="icon" href="./img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article" />
+
     <!-- SEO CLOSED -->
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -547,6 +550,8 @@ label {
 
     </div>
 
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/TvEqRt5ZQVUtOtig/scene.splinecode"></spline-viewer>
     <section class="container-fluid py-md-5" id="about">
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
