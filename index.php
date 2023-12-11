@@ -424,7 +424,7 @@ label {
 
 <head>
     <!-- SEO OPEN -->
-    <title>Serviplates Express - Get Reliable Temporary Plates and Insurance Services</title>
+    <title>ServiPlates Express USA - Reliable Temporary Plates</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
