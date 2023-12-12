@@ -420,8 +420,7 @@ label {
 }
 </style>
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en-us">
 <head>
     <!-- SEO OPEN -->
     <title>ServiPlates Express USA - Reliable Temporary Plates</title>
@@ -430,7 +429,7 @@ label {
     <meta name="description"
         content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
     <meta name="keywords"
-        content="plates, placas, temporary plates, plates usa, plates services, smog, seguros, placas temporales, inspecciones de auto, titulos de auto, serviplates">
+        content="plates, placas, temporary plates, plates usa, plates services, smog, seguros, placas temporales, car inspections, titulos de auto, car titles">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
@@ -438,7 +437,7 @@ label {
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
     <meta name="title" content="ServiplatexpressUSA">
-    <meta name="language" content="Spanish">
+    <meta name="language" content="English">
     <meta name="revisit-after" content="1 days">
     <meta name="author" content="ServiplatexpressUSA">
     <meta property="og:type" content="article" />
@@ -491,9 +490,8 @@ label {
     <header class="shadow-2 bg-white st-2">
 
         <a href="#" class="logo">Serviplates Express
-            <span style="color: #b22234; font-size: 18px;">U</span><span
-                style="color: blue; font-size: 18px;">S</span><span
-                style="color: #b22234; font-size: 18px;">A</span></a>
+            <span style="font-size: 18px;">U</span><span style="font-size: 18px;">S</span><span
+                style="font-size: 18px;">A</span></a>
         <ul class="navlist2">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -560,7 +558,9 @@ label {
                             temporary plates across the United States. With unwavering commitment, we dedicate ourselves
                             to serving communities nationwide with transparent and legally sound services.</p>
                         <p>As pioneers in the industry, we offer more than just temporary plates; we bring you peace of
-                            mind. Trust us for a reliable, legal, and hassle-free experience.</p>
+                            mind. Trust us for a reliable, legal, and hassle-free experience. Our commitment extends
+                            beyond providing temporary plates – we actively contribute to reducing smog and promoting
+                            environmental responsibility.</p>
                     </div>
                     <div class="col-12 col-md-6 text-end info-img2 mr-5">
                         <div class="px-lg-3 py-4 py-md-2 mx-md-3 text-end ">
@@ -572,7 +572,6 @@ label {
             </div>
         </div>
     </section>
-
 
     <section class="container-fluid pb-5 bg-light" id="examples">
         <div class="p-md-5 p-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
@@ -609,26 +608,26 @@ label {
     <section class="container-fluid pb-5 bg-white" id="plates">
         <div class="p-md-5 p-3">
             <div class="col-12 mb-2 info-text2 py-5 pb-0">
-                <h1 class="text-center">Generation and Marketing of the Product</h1>
+                <h1 class="text-center">Smog Checks and Auto Inspections</h1>
             </div>
             <div class="container left">
                 <div class="row mt-0 gx-4 gy-2">
                     <div class="col-md-4 col-12 p-4">
                         <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
-                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4 fw-semibold">Innovative Designs</p>
-                            <p class="text-center">Explore our diverse range of plates featuring innovative designs.
-                                Each plate is a unique expression of style and functionality, resonating with our
-                                customers' preferences.</p>
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-car'></i></p>
+                            <p class="text-center fs-4 fw-semibold">Smog Checks</p>
+                            <p class="text-center">Ensure your vehicle meets emissions standards with our comprehensive
+                                smog checks. We provide efficient services to keep your car environmentally friendly and
+                                compliant with regulations.</p>
                         </div>
                     </div>
                     <div class="col-md-4  col-12 p-4">
                         <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
-                            <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4 fw-semibold">Customer Satisfaction</p>
-                            <p class="text-center">Our success is measured by the satisfaction of our customers. Join
-                                the community of happy plate owners who trust and appreciate the quality and service we
-                                provide.</p>
+                            <p class="text-center fw-semibold fs-4"><i class='bx bx-check-shield'></i></p>
+                            <p class="text-center fs-4 fw-semibold">Auto Inspections</p>
+                            <p class="text-center">Ensure the safety and functionality of your vehicle through our
+                                thorough auto inspections. Our certified inspectors provide detailed assessments to
+                                guarantee your vehicle's roadworthiness.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-12 p-4">
