@@ -548,7 +548,6 @@ label {
         </section>
 
     </div>
-
     <section class="container-fluid py-md-5" id="about">
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
@@ -573,7 +572,6 @@ label {
             </div>
         </div>
     </section>
-
     <section class="container-fluid pb-5 bg-light" id="examples">
         <div class="p-md-5 p-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
@@ -605,7 +603,6 @@ label {
             </div>
         </div>
     </section>
-
     <section class="container-fluid pb-5 bg-white" id="plates">
         <div class="p-md-5 p-3">
             <div class="col-12 mb-2 info-text2 py-5 pb-0">
@@ -644,7 +641,6 @@ label {
             </div>
         </div>
     </section>
-
     <section class="bg-info info-text pt-5 pb-2" id="states">
         <div class="py-md-5" style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
@@ -718,9 +714,6 @@ label {
             </div>
         </div>
     </section>
-
-
-
     <div class="contianer-fluid py-md-5 px-md-5 px-lg-2 bg-light" id="contact">
         <div class="mb-lg-4 py-md-5 mx-lg-2 px-md-2">
             <form id="contactForm" method="POST"
@@ -771,7 +764,8 @@ label {
             </form>
         </div>
     </div>
-    </div>
+
+
     <footer class="bg-info m-0 p-0 bg-footer">
         <div class="container text-white p-md-5 p-3 " style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
