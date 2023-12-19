@@ -420,17 +420,20 @@ label {
 }
 </style>
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="es">
+
 <head>
     <!-- SEO OPEN -->
     <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
+        content="Obtén placas temporales confiables y servicios de seguros en los Estados Unidos. Explora nuestras opciones asequibles y eficientes para asegurar tu vehículo.">
     <meta name="keywords"
-        content="plates, placas, temporary plates, plates usa, plates services, smog, seguros, placas temporales, car inspections, titulos de auto, car titles">
+        content="placas temporales, placas temporales en línea, smog, seguros, inspecciones de autos, títulos de autos, historial de verificación de smog">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://serviplatexpressusa.com">
+    <link rel="alternate" hreflang="en-us" href="https://yourwebsite.com/english">
     <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
         content="Get reliable temporary plates and insurance services in the United States.">
@@ -445,7 +448,6 @@ label {
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!-- SEO CLOSED -->
-
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- remixicons link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -484,31 +486,42 @@ label {
 
     gtag('config', 'G-WRHGX2FHE7');
     </script>
+    <script>
+    const userLanguage = navigator.language || navigator.userLanguage;
+    const currentUrl = window.location.href;
+
+    if (userLanguage.toLowerCase().includes('es') && !currentUrl.includes('index')) {
+        window.location.href = 'index'; // Reemplaza 'espanol' con la URL deseada para la versión en español
+    } else if (userLanguage.toLowerCase().includes('en') && !currentUrl.includes('english')) {
+        window.location.href = 'english'; // Reemplaza 'english' con la URL deseada para la versión en inglés
+    }
+    </script>
 </head>
 
 <body>
     <header class="shadow-2 bg-white st-2">
-
         <a href="#" class="logo">Serviplates Express
             <span style="font-size: 18px;">U</span><span style="font-size: 18px;">S</span><span
                 style="font-size: 18px;">A</span></a>
         <ul class="navlist2">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#examples">Examples</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca</a></li>
+            <li><a href="#examples">Ejemplos</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
 
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
+
     <header style="z-index: 100;">
         <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#examples">Examples</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca</a></li>
+            <li><a href="#examples">Ejemplos</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
     </header>
+
     <a href="https://wa.me/+573222863938" target="_blank"
         class="btn btn-success shadow px-4 py-3 px-md-3 py-md-3 shadow  floating-button">
         <i class='bx bxl-whatsapp'></i>
@@ -525,21 +538,22 @@ label {
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-7 pt-md-5">
                         <div class="info-text text-light">
-                            <h1>Discover Temporary License Plates in the USA</h1>
+                            <h1>Descubre Placas Temporales en los Estados Unidos</h1>
                             <p class="text-white">
-                                Experience the unparalleled convenience of ServiPlates Express, your go-to solution for
-                                temporary license plates in the USA. Navigating the roads has never been easier with our
-                                hassle-free services. Whether you're a new car owner, in the process of vehicle
-                                registration, or simply in need of a temporary solution, we've got you covered.
+                                Experimenta la conveniencia incomparable de ServiPlates Express, tu solución de
+                                confianza para placas temporales
+                                en los Estados Unidos. Navegar por las carreteras nunca ha sido tan fácil con nuestros
+                                servicios sin complicaciones.
+                                Ya sea que seas propietario de un vehículo nuevo, estés en proceso de registro de
+                                vehículos o simplemente necesites
+                                una solución temporal, estamos aquí para ayudarte.
                             </p>
-
-
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-lg-5 text-center">
                         <div class="info-img py-md-5">
                             <img src="img/track.png" class="img-fluid rounded shadow-3 img-placa"
-                                alt="Temporary License Plates Image">
+                                alt="placas temporales">
                         </div>
                     </div>
                 </div>
@@ -547,20 +561,24 @@ label {
         </section>
 
     </div>
-
     <section class="container-fluid py-md-5" id="about">
         <div class="container px-4 py-5">
             <div class="my-5 info-text2 py-5">
                 <div class="row">
                     <div class="col-12 col-md-6" style="text-align: justify;">
-                        <h1 class="mb-4">Welcome to Our Journey</h1>
-                        <p class="mb-5">Embark on a seamless adventure with us – the leading authority in issuing
-                            temporary plates across the United States. With unwavering commitment, we dedicate ourselves
-                            to serving communities nationwide with transparent and legally sound services.</p>
-                        <p>As pioneers in the industry, we offer more than just temporary plates; we bring you peace of
-                            mind. Trust us for a reliable, legal, and hassle-free experience. Our commitment extends
-                            beyond providing temporary plates – we actively contribute to reducing smog and promoting
-                            environmental responsibility.</p>
+                        <h1 class="mb-4">Placas Temporales</h1>
+                        <p class="mb-5">Embárcate en una aventura sin problemas con nosotros, la principal autoridad en
+                            la emisión de
+                            placas temporales en todo Estados Unidos. Con un compromiso inquebrantable, nos dedicamos a
+                            servir a comunidades
+                            a nivel nacional con servicios transparentes y legalmente sólidos.</p>
+                        <p>Como pioneros en la industria, ofrecemos más que simples placas temporales; te brindamos
+                            tranquilidad. Confía en
+                            nosotros para una experiencia confiable, legal y libre de problemas. Nuestro compromiso va
+                            más allá de proporcionar
+                            placas temporales; contribuimos activamente a la reducción de la contaminación y promovemos
+                            la responsabilidad
+                            ambiental.</p>
                     </div>
                     <div class="col-12 col-md-6 text-end info-img2 mr-5">
                         <div class="px-lg-3 py-4 py-md-2 mx-md-3 text-end ">
@@ -572,15 +590,16 @@ label {
             </div>
         </div>
     </section>
-
     <section class="container-fluid pb-5 bg-light" id="examples">
         <div class="p-md-5 p-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
-                <h1 class="text-center">Embark on a Journey of Unique License Plate Designs</h1>
-                <p class="text-center px-5">Uncover a world of distinctive temporary license plates crafted to elevate
-                    your
-                    driving experience. Dive into the extraordinary as we blend innovation and style seamlessly. </p>
+                <h1 class="text-center">Embárcate en un Viaje de Diseños Únicos de Placas Temporales</h1>
+                <p class="text-center px-5">Descubre un mundo de placas temporales distintivas diseñadas para elevar tu
+                    experiencia de
+                    conducción. Sumérgete en lo extraordinario mientras fusionamos la innovación y el estilo de manera
+                    perfecta.</p>
+
             </div>
             <div class="container">
                 <div class="row gy-4 p-md-4 m-md-2 mt-0">
@@ -604,54 +623,56 @@ label {
             </div>
         </div>
     </section>
-
     <section class="container-fluid pb-5 bg-white" id="plates">
         <div class="p-md-5 p-3">
             <div class="col-12 mb-2 info-text2 py-5 pb-0">
-                <h1 class="text-center">Smog Checks and Auto Inspections</h1>
+                <h1 class="text-center">Verificaciones de Smog e Inspecciones de Vehículos</h1>
             </div>
             <div class="container left">
                 <div class="row mt-0 gx-4 gy-2">
                     <div class="col-md-4 col-12 p-4">
                         <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-car'></i></p>
-                            <p class="text-center fs-4 fw-semibold">Smog Checks</p>
-                            <p class="text-center">Ensure your vehicle meets emissions standards with our comprehensive
-                                smog checks. We provide efficient services to keep your car environmentally friendly and
-                                compliant with regulations.</p>
+                            <p class="text-center fs-4 fw-semibold">Verificaciones de Smog</p>
+                            <p class="text-center">Asegúrate de que tu vehículo cumpla con las normas de emisiones
+                                mediante nuestras
+                                exhaustivas verificaciones de smog. Ofrecemos servicios eficientes para mantener tu
+                                automóvil
+                                respetuoso con el medio ambiente y en cumplimiento con las regulaciones.</p>
                         </div>
                     </div>
-                    <div class="col-md-4  col-12 p-4">
+                    <div class="col-md-4 col-12 p-4">
                         <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-check-shield'></i></p>
-                            <p class="text-center fs-4 fw-semibold">Auto Inspections</p>
-                            <p class="text-center">Ensure the safety and functionality of your vehicle through our
-                                thorough auto inspections. Our certified inspectors provide detailed assessments to
-                                guarantee your vehicle's roadworthiness.</p>
+                            <p class="text-center fs-4 fw-semibold">Inspecciones de Vehículos</p>
+                            <p class="text-center">Asegura la seguridad y funcionalidad de tu vehículo mediante nuestras
+                                exhaustivas
+                                inspecciones de vehículos. Nuestros inspectores certificados proporcionan evaluaciones
+                                detalladas para
+                                garantizar la aptitud de tu vehículo para circular.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-12 p-4">
                         <div class="bg-light p-md-5 p-3 rounded shadow-3 h-100 w-100">
                             <p class="text-center fw-semibold fs-4"><i class='bx bx-expand-horizontal'></i></p>
-                            <p class="text-center fs-4 fw-semibold">Future Innovations</p>
-                            <p class="text-center">Stay tuned for future innovations as we continue to expand our
-                                product line. We are dedicated to bringing you cutting-edge designs and solutions in the
-                                world of license plates.</p>
+                            <p class="text-center fs-4 fw-semibold">Innovaciones Futuras</p>
+                            <p class="text-center">Mantente atento a futuras innovaciones mientras continuamos
+                                expandiendo nuestra línea de
+                                productos. Nos dedicamos a ofrecerte diseños y soluciones de vanguardia en el mundo de
+                                las placas
+                                de matrícula.</p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
-
     <section class="bg-info info-text pt-5 pb-2" id="states">
         <div class="py-md-5" style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
-
-            <h1 class="text-center pt-5 pb-2">
-                STATES WHERE WE ISSUE TEMPORARY PLATES
-            </h1>
+            <h1 class="text-center pt-5 pb-2">ESTADOS DONDE EXPEDIMOS PLACAS TEMPORALES</h1>
             <div class="container pb-4 p-0">
                 <div class="row p-0">
                     <?php
@@ -669,57 +690,10 @@ label {
     <section id="vision" class="py-md-5 bg-blue ">
         <div class="container py-5 right">
             <div class="row pt-5 gy-3">
-                <div class="col-md-6 col-12 py-5">
-                    <div class="row">
-                        <div class="col-md-3 col-12 text-center">
-                            <svg class="w-50 h-50 mx-auto mt-4 text-gray-800 " aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M8 9h2v5m-2 0h4M9.408 5.5h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                            </svg>
-                        </div>
-                        <div class="col-8">
-                            <h1 class="text-md-start mt-4 text-center">Our Vision</h1>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <p style="text-align: justify !important;">At ServiPlates, we envision a future where every road
-                            journey begins with confidence and
-                            security. Our commitment is to redefine safety standards by providing innovative and
-                            efficient solutions for issuing temporary plates. We strive to be pioneers in reducing
-                            risks, ensuring the well-being of our clients through the seamless and legal acquisition of
-                            temporary plates.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 py-5">
-                    <div class="row">
-                        <div class="col-md-3 col-12 text-center">
-                            <svg class="w-50 h-50 mx-auto mt-4 text-gray-800 " aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M8 9h2v5m-2 0h4M9.408 5.5h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                            </svg>
-                        </div>
-                        <div class="col-8">
-                            <h1 class="text-md-start mt-4 text-center">Our Mission</h1>
-                        </div>
-                    </div>
-                    <div class="p-4" style="text-align: justify !important;">
-                        <p>Driven by a passion for safety, our mission at ServiPlates is to empower our clients with the
-                            means to navigate the roads securely. We are dedicated to minimizing risks by facilitating
-                            the swift and legal issuance of temporary plates. Our mission is rooted in ensuring the
-                            safety and satisfaction of our clients, providing a foundation for worry-free journeys and
-                            promoting responsible road practices.</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
-
-
-
     <div class="contianer-fluid py-md-5 px-md-5 px-lg-2 bg-light" id="contact">
         <div class="mb-lg-4 py-md-5 mx-lg-2 px-md-2">
             <form id="contactForm" method="POST"
@@ -771,6 +745,7 @@ label {
         </div>
     </div>
     </div>
+
     <footer class="bg-info m-0 p-0 bg-footer">
         <div class="container text-white p-md-5 p-3 " style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
@@ -782,22 +757,27 @@ label {
             <div class="row pt-3">
                 <div class="col-12">
                     <p class="fs-4 fw-semibold text-start">Serviplates Express</p>
-                    <p style="text-align: justify;">Explore the convenience and efficiency of our temporary license
-                        plates in
-                        the United States. At ServiPlates, we prioritize the safety and satisfaction of our clients by
-                        providing a seamless process for obtaining temporary plates. Trust us to make your journey
-                        worry-free with our quick, legal, and reliable temporary plate solutions.</p>
+                    <p style="text-align: justify;">Explora la conveniencia y eficiencia de nuestras placas temporales
+                        en los
+                        Estados Unidos. En ServiPlates, priorizamos la seguridad y satisfacción de nuestros clientes al
+                        proporcionar
+                        un proceso sin problemas para obtener placas temporales. Confía en nosotros para hacer que tu
+                        viaje sea
+                        libre de preocupaciones con nuestras soluciones de placas temporales rápidas, legales y
+                        confiables.</p>
                 </div>
             </div>
-
 
             <div class="row pt-5 mt-3">
                 <div class="col-12">
-                    <p class="text-start fs-5">© 2023 All Rights Reserved. SERVIPLATES Express USA.</p>
-                    <p class="text-start p-0 m-0">Terms of Service | Privacy Policy | Data Treatment Policy</p>
-                    <p class="text-start p-0 m-0">All content and rights are reserved by IUTECK SERVICE.</p>
+                    <p class="text-start fs-5">© 2023 Todos los derechos reservados. SERVIPLATES Express USA.</p>
+                    <p class="text-start p-0 m-0">Términos de servicio | Política de privacidad | Política de
+                        tratamiento de datos</p>
+                    <p class="text-start p-0 m-0">Todo el contenido y los derechos están reservados por IUTECK SERVICE.
+                    </p>
                 </div>
             </div>
+
 
         </div>
     </footer>
