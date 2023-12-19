@@ -429,7 +429,7 @@ label {
     <meta name="description"
         content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
     <meta name="keywords"
-        content="placas temporales, placas temporales en línea, temporary plates, como sacar placas temporales en texas, texas plates usa, plates services, smog, seguros, placas temporales, car inspections, titulos de auto, car titles,smog check history">
+        content="plates, placas, temporary plates, plates usa, plates services, smog, seguros, placas temporales, car inspections, titulos de auto, car titles">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="ServiplatexpressUSA">
     <meta property="og:description"
