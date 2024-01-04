@@ -446,7 +446,19 @@ label {
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!-- SEO CLOSED -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H80T5PWMPV">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H80T5PWMPV');
+    </script>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- remixicons link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">

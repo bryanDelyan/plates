@@ -468,6 +468,20 @@ label {
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/controls.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H80T5PWMPV">
+    </script>
+    
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H80T5PWMPV');
+    </script>
     <script src="
     https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
     "></script>
