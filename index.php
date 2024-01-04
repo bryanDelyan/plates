@@ -427,6 +427,9 @@ label {
     <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Placas Temporales USA">
+    <meta property="og:description"
+        content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
     <meta name="description"
         content="Obtén placas temporales confiables y servicios de seguros en los Estados Unidos. Explora nuestras opciones asequibles y eficientes para asegurar tu vehículo.">
     <meta name="keywords"
@@ -434,9 +437,6 @@ label {
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://serviplatexpressusa.com">
     <link rel="alternate" hreflang="en-us" href="https://yourwebsite.com/english">
-    <meta property="og:title" content="ServiplatexpressUSA">
-    <meta property="og:description"
-        content="Get reliable temporary plates and insurance services in the United States.">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
     <meta name="title" content="ServiplatexpressUSA">
