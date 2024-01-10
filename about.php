@@ -446,6 +446,7 @@ label {
     <meta property="og:type" content="article" />
     <link rel="icon" href="./img/logo.png" />
     <meta property="og:image:width" content="1200">
+    <meta name="google-site-verification" content="oEzchOAbUOTxZwgusyuGkg25Xzptb8XOKkDR2-ObyrY" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H80T5PWMPV">
     </script>

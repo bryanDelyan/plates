@@ -447,6 +447,7 @@ label {
     <link rel="icon" href="./img/logo.png" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta name="google-site-verification" content="oEzchOAbUOTxZwgusyuGkg25Xzptb8XOKkDR2-ObyrY" />
     <!-- SEO CLOSED -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- remixicons link -->
