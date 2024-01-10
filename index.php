@@ -444,7 +444,7 @@ label {
     <meta property="og:type" content="website">
     <meta property="og:title" content="Placas Temporales">
     <meta property="og:description"
-        content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
+        content="placas temporales cerca de mi, te facilitamos el proceso de obtención de placas temporales de manera fácil y rápida.">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:image:secure_url" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
