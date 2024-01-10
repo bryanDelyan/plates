@@ -514,16 +514,7 @@ label {
 
     gtag('config', 'G-WRHGX2FHE7');
     </script>
-    <script>
-    const userLanguage = navigator.language || navigator.userLanguage;
-    const currentUrl = window.location.href;
-
-    if (userLanguage.toLowerCase().includes('es') && !currentUrl.includes('index')) {
-        window.location.href = 'index'; // Reemplaza 'espanol' con la URL deseada para la versión en español
-    } else if (userLanguage.toLowerCase().includes('en') && !currentUrl.includes('english')) {
-        window.location.href = 'english'; // Reemplaza 'english' con la URL deseada para la versión en inglés
-    }
-    </script>
+  
 </head>
 
 <body>
