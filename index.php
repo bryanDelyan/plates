@@ -439,8 +439,7 @@ label {
     <meta name="language" content="Español">
     <meta name="revisit-after" content="1 days">
     <meta name="author" content="placas Temporales">
-
-    <meta property="og:locale" content="es_ES">
+    <meta property="og:locale" content="es">
     <meta property="og:type" content="website">
     <meta property="og:title" content="placas Temporales">
     <meta property="og:description"
@@ -465,6 +464,7 @@ label {
     <link rel="icon" href="./img/logo.png" />
     <link rel="icon" href="https://serviplatexpressusa.com/img/track.png" sizes="32x32">
     <link rel="icon" href="https://serviplatexpressusa.com/img/track.png" sizes="192x192">
+
     <meta name="google-site-verification" content="oEzchOAbUOTxZwgusyuGkg25Xzptb8XOKkDR2-ObyrY" />
     <!-- SEO CLOSED -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -570,7 +570,7 @@ label {
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-7 pt-md-5">
                         <div class="info-text text-light">
-                            <h1>placas Temporales en los Estados Unidos</h1>
+                            <h1>placas temporales en los Estados Unidos</h1>
                             <p class="text-white">
                                 Experimenta la conveniencia incomparable de ServiPlates Express, tu solución de
                                 confianza para placas temporales
