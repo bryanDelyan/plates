@@ -452,7 +452,8 @@ label {
     <meta property="og:type" content="article" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-
+    <meta property="article:published_time" content="2023-02-16T01:19:34+00:00">
+    <meta property="article:modified_time" content="2024-01-10T22:18:53+00:00">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Placas Temporales">
     <meta name="twitter:description" content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
@@ -462,6 +463,8 @@ label {
     <meta name="twitter:label2" content="Tiempo de lectura">
     <meta name="twitter:data2" content="3 minutos">
     <link rel="icon" href="./img/logo.png" />
+    <link rel="icon" href="https://serviplatexpressusa.com/img/track.png" sizes="32x32">
+    <link rel="icon" href="https://serviplatexpressusa.com/img/track.png" sizes="192x192">
     <meta name="google-site-verification" content="oEzchOAbUOTxZwgusyuGkg25Xzptb8XOKkDR2-ObyrY" />
     <!-- SEO CLOSED -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
