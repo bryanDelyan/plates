@@ -14,10 +14,10 @@ $(document).ready(function () {
     });
     $.ajax({
       type: "POST",
-      url: "https://serviplatexpressusa.com/php/contact.php", 
+      url: "./php/contact.php", 
       data: formData,
       success: function (response) {
-       console.log('ok');
+       console.log(response);
       },
       error: function (error) {
         console.error("Error:", error);

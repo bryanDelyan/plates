@@ -7,7 +7,7 @@ require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 require '../vendor/autoload.php';
 
 // Información de la base de datos
-$host = 'sql529.main-hosting.eu';
+$host = 'localhost';
 $usuario = 'u785679053_plates';
 $contrasena = 'Automarcol+2023*';
 $base_de_datos = 'u785679053_plates';
