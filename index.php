@@ -424,7 +424,7 @@ label {
 
 <head>
     <!-- SEO OPEN -->
-    <title>Placas Temporales</title>
+    <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Placas Temporales">
@@ -436,7 +436,8 @@ label {
         content="placas temporales, placas temporales en línea, smog, seguros, inspecciones de autos, títulos de autos, historial de verificación de smog">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://serviplatexpressusa.com">
-    <link rel="alternate" hreflang="en-us" href="https://serviplatexpressusa.com/english">
+    <link rel="alternate" hreflang="en" href="https://serviplatexpressusa.com/english">
+    <link rel="alternate" hreflang="es" href="https://serviplatexpressusa.com">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
     <meta name="title" content="Placas temporales">

@@ -420,27 +420,30 @@ label {
 }
 </style>
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <!-- SEO OPEN -->
     <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Get reliable temporary plates and insurance services in the United States. Explore our affordable and efficient options for securing your vehicle.">
-    <meta name="keywords"
-        content="placas temporales,Serviplate, placas temporales en línea, temporary plates, como sacar placas temporales en texas, texas plates usa, plates services, smog, seguros, placas temporales, car inspections, titulos de auto, car titles,smog check history">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="ServiplatexpressUSA">
+    <meta property="og:title" content="Plates temporary">
     <meta property="og:description"
-        content="Get reliable temporary plates and insurance services in the United States.">
+        content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
+    <meta name="description"
+        content="Obtén placas temporales confiables y servicios de seguros en los Estados Unidos. Explora nuestras opciones asequibles y eficientes para asegurar tu vehículo.">
+    <meta name="keywords"
+        content="placas temporales, placas temporales en línea, smog, seguros, inspecciones de autos, títulos de autos, historial de verificación de smog">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://serviplatexpressusa.com">
+    <link rel="alternate" hreflang="en" href="https://serviplatexpressusa.com/english">
+    <link rel="alternate" hreflang="es" href="https://serviplatexpressusa.com">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
-    <meta name="title" content="ServiplatexpressUSA">
-    <meta name="language" content="English">
+    <meta name="title" content="Plates temporary">
+    <meta name="language" content="Español">
     <meta name="revisit-after" content="1 days">
-    <meta name="author" content="ServiplatexpressUSA">
+    <meta name="author" content="Placas Temporales">
     <meta property="og:type" content="article" />
     <link rel="icon" href="./img/logo.png" />
     <meta property="og:image:width" content="1200">
