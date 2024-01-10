@@ -345,7 +345,7 @@ section .container-fluid {
 
     .img-placa {
         width: 260px !important;
-        margin-top: 6px !important;
+        margin-top: 3px !important;
     }
 
     .info-text p {
@@ -424,10 +424,10 @@ label {
 
 <head>
     <!-- SEO OPEN -->
-    <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
+    <title>Placas Temporales</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Placas Temporales USA">
+    <meta property="og:title" content="Placas Temporales">
     <meta property="og:description"
         content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
     <meta name="description"
@@ -436,13 +436,13 @@ label {
         content="placas temporales, placas temporales en línea, smog, seguros, inspecciones de autos, títulos de autos, historial de verificación de smog">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://serviplatexpressusa.com">
-    <link rel="alternate" hreflang="en-us" href="https://yourwebsite.com/english">
+    <link rel="alternate" hreflang="en-us" href="https://serviplatexpressusa.com/english">
     <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
     <meta property="og:url" content="https://serviplatexpressusa.com/">
-    <meta name="title" content="ServiplatexpressUSA">
-    <meta name="language" content="English">
+    <meta name="title" content="Placas temporales">
+    <meta name="language" content="Español">
     <meta name="revisit-after" content="1 days">
-    <meta name="author" content="ServiplatexpressUSA">
+    <meta name="author" content="Placas Temporales">
     <meta property="og:type" content="article" />
     <link rel="icon" href="./img/logo.png" />
     <meta property="og:image:width" content="1200">
@@ -547,11 +547,11 @@ label {
         </video>
         <div class="overlay"></div>
         <section>
-            <div class="container py-md-4 px-3 position-relative z-index-1">
+            <div class="container pt-md-4 pb-8 px-2 position-relative z-index-1">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-7 pt-md-5">
                         <div class="info-text text-light">
-                            <h1>Descubre Placas Temporales en los Estados Unidos</h1>
+                            <h1>Placas Temporales en los Estados Unidos</h1>
                             <p class="text-white">
                                 Experimenta la conveniencia incomparable de ServiPlates Express, tu solución de
                                 confianza para placas temporales
@@ -564,7 +564,7 @@ label {
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-lg-5 text-center">
-                        <div class="info-img py-md-5">
+                        <div class="info-img py-md-5 pb-8">
                             <img src="img/track.png" class="img-fluid rounded shadow-3 img-placa"
                                 alt="placas temporales">
                         </div>
@@ -579,7 +579,7 @@ label {
             <div class="my-5 info-text2 py-5">
                 <div class="row">
                     <div class="col-12 col-md-6" style="text-align: justify;">
-                        <h1 class="mb-4">Placas Temporales</h1>
+                        <h2 class="mb-4">Placas Temporales</h2>
                         <p class="mb-5">Embárcate en una aventura sin problemas con nosotros, la principal autoridad en
                             la emisión de
                             placas temporales en todo Estados Unidos. Con un compromiso inquebrantable, nos dedicamos a
@@ -607,7 +607,7 @@ label {
         <div class="p-md-5 p-3" style="   background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
             <div class="col-12 mb-2 info-text2 py-5 pb-2">
-                <h1 class="text-center">Embárcate en un Viaje de Diseños Únicos de Placas Temporales</h1>
+                <h3 class="text-center">Embárcate en un Viaje de Diseños Únicos de Placas Temporales</h3>
                 <p class="text-center px-5">Descubre un mundo de placas temporales distintivas diseñadas para elevar tu
                     experiencia de
                     conducción. Sumérgete en lo extraordinario mientras fusionamos la innovación y el estilo de manera
@@ -639,7 +639,7 @@ label {
     <section class="container-fluid pb-5 bg-white" id="plates">
         <div class="p-md-5 p-3">
             <div class="col-12 mb-2 info-text2 py-5 pb-0">
-                <h1 class="text-center">Verificaciones de Smog e Inspecciones de Vehículos</h1>
+                <h4 class="text-center">Verificaciones de Smog e Inspecciones de Vehículos</h4>
             </div>
             <div class="container left">
                 <div class="row mt-0 gx-4 gy-2">
@@ -685,7 +685,7 @@ label {
         <div class="py-md-5" style="
             background-image: url('https://themewagon.github.io/AI-html/img/footer.png') !important;
             background-size: cover !important;">
-            <h1 class="text-center pt-5 pb-2">ESTADOS DONDE EXPEDIMOS PLACAS TEMPORALES</h1>
+            <h5 class="text-center pt-5 pb-5 text-white mb-3">ESTADOS DONDE EXPEDIMOS PLACAS TEMPORALES</h5>
             <div class="container pb-4 p-0">
                 <div class="row p-0">
                     <?php
@@ -700,18 +700,11 @@ label {
 
         </div>
     </section>
-    <section id="vision" class="py-md-5 bg-blue ">
-        <div class="container py-5 right">
-            <div class="row pt-5 gy-3">
-
-            </div>
-        </div>
-    </section>
     <div class="contianer-fluid py-md-5 px-md-5 px-lg-2 bg-light" id="contact">
         <div class="mb-lg-4 py-md-5 mx-lg-2 px-md-2">
             <form id="contactForm" method="POST"
                 class="col-md-9 col-lg-6 col-xl-4 col-12 mx-auto bg-white py-5 px-5 rounded shadow-3 py-md-5">
-                <h1 class="text-center fw-semibold fs-3">Contact Us</h1>
+                <h6 class="text-center fw-semibold fs-4">Contact Us</h6>
                 <hr>
                 <br>
                 <div class="">
