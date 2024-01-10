@@ -7,10 +7,10 @@ require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 require '../vendor/autoload.php';
 
 // Información de la base de datos
-$host = 'localhost';
-$usuario = 'root';
-$contrasena = '';
-$base_de_datos = 'plates';
+$host = 'sql529.main-hosting.eu';
+$usuario = 'u785679053_plates';
+$contrasena = 'Automarcol+2023*';
+$base_de_datos = 'u785679053_plates';
 
 // Conectar a la base de datos
 $con = new mysqli($host, $usuario, $contrasena, $base_de_datos);
