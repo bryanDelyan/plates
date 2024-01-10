@@ -66,7 +66,9 @@ if ($con->query($query) === TRUE) {
         echo 'Error al enviar el correo: ', $mail->ErrorInfo;
     }
     
-} 
+}else{
+    echo 'error';
+}
 
 // Cerrar la conexión
 $con->close();

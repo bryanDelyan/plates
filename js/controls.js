@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
     $.ajax({
       type: "POST",
-      url: "./php/contact.php", 
+      url: "https://serviplatexpressusa.com/php/contact.php", 
       data: formData,
       success: function (response) {
        console.log('ok');
