@@ -424,30 +424,44 @@ label {
 
 <head>
     <!-- SEO OPEN -->
-    <title>ServiPlates Express USA - Placas Temporales, Smog, Inspecciones y Seguros</title>
+    <title>Placas Temporales</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Placas Temporales">
-    <meta property="og:description"
-        content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
     <meta name="description"
         content="Obtén placas temporales confiables y servicios de seguros en los Estados Unidos. Explora nuestras opciones asequibles y eficientes para asegurar tu vehículo.">
     <meta name="keywords"
         content="placas temporales, placas temporales en línea, smog, seguros, inspecciones de autos, títulos de autos, historial de verificación de smog">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <link rel="canonical" href="https://serviplatexpressusa.com">
     <link rel="alternate" hreflang="en" href="https://serviplatexpressusa.com/english">
     <link rel="alternate" hreflang="es" href="https://serviplatexpressusa.com">
-    <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
-    <meta property="og:url" content="https://serviplatexpressusa.com/">
     <meta name="title" content="Placas temporales">
     <meta name="language" content="Español">
     <meta name="revisit-after" content="1 days">
     <meta name="author" content="Placas Temporales">
+
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Placas Temporales">
+    <meta property="og:description"
+        content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
+    <meta property="og:image" content="https://serviplatexpressusa.com/img/track.png">
+    <meta property="og:image:secure_url" content="https://serviplatexpressusa.com/img/track.png">
+    <meta property="og:url" content="https://serviplatexpressusa.com/">
+    <meta property="og:site_name" content="Placas Temporales">
     <meta property="og:type" content="article" />
-    <link rel="icon" href="./img/logo.png" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Placas Temporales">
+    <meta name="twitter:description" content="¿Necesitas placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de placas temporales del DMV de manera fácil y rápida.">
+    <meta name="twitter:image" content="https://placastemporalesdmv.com/wp-content/uploads/2023/09/cropped-Sin-titulo-3-1.png">
+    <meta name="twitter:label1" content="Escrito por">
+    <meta name="twitter:data1" content="serviplatexpressusa.com">
+    <meta name="twitter:label2" content="Tiempo de lectura">
+    <meta name="twitter:data2" content="3 minutos">
+    <link rel="icon" href="./img/logo.png" />
     <meta name="google-site-verification" content="oEzchOAbUOTxZwgusyuGkg25Xzptb8XOKkDR2-ObyrY" />
     <!-- SEO CLOSED -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
