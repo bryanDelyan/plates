@@ -52,7 +52,7 @@ if ($con->query($query) === TRUE) {
         // include './plantilla_1.php';
 
         // Configuración del remitente y destinatario
-        $mail->addAddress('serviplatexpress@gmail.com');
+        $mail->addAddress('inspecionestemporales@gmail.com');
         // Contenido del correo
          include './mails/plantilla.php';
          

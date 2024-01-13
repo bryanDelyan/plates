@@ -455,8 +455,10 @@ label {
     <meta property="article:modified_time" content="2024-01-10T22:18:53+00:00">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Placas Temporales">
-    <meta name="twitter:description" content="¿Necesitas Placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de Placas temporales del DMV de manera fácil y rápida.">
-    <meta name="twitter:image" content="https://Placastemporalesdmv.com/wp-content/uploads/2023/09/cropped-Sin-titulo-3-1.png">
+    <meta name="twitter:description"
+        content="¿Necesitas Placas temporales para tu vehículo? En nuestra página, te facilitamos el proceso de obtención de Placas temporales del DMV de manera fácil y rápida.">
+    <meta name="twitter:image"
+        content="https://Placastemporalesdmv.com/wp-content/uploads/2023/09/cropped-Sin-titulo-3-1.png">
     <meta name="twitter:label1" content="Escrito por">
     <meta name="twitter:data1" content="serviplatexpressusa.com">
     <meta name="twitter:label2" content="Tiempo de lectura">
@@ -555,7 +557,7 @@ label {
     </header>
 
     <a href="https://wa.me/+573222863938" target="_blank"
-        class="btn btn-success shadow px-4 py-3 px-md-3 py-md-3 shadow  floating-button">
+        class="btn btn-success shadow px-4 py-3 px-md-3 py-md-3 shadow  floating-button d-none">
         <i class='bx bxl-whatsapp'></i>
     </a>
 
@@ -599,12 +601,14 @@ label {
                 <div class="row">
                     <div class="col-12 col-md-6" style="text-align: justify;">
                         <h2 class="mb-4">Placas Temporales</h2>
-                        <h3 class="mb-5 fs-6 fw-normal">Embárcate en una aventura sin problemas con nosotros, la principal autoridad en
+                        <h3 class="mb-5 fs-6 fw-normal">Embárcate en una aventura sin problemas con nosotros, la
+                            principal autoridad en
                             la emisión de
                             Placas temporales en todo Estados Unidos. Con un compromiso inquebrantable, nos dedicamos a
                             servir a comunidades
                             a nivel nacional con servicios transparentes y legalmente sólidos.</h3>
-                        <h4 class="fs-6 fw-normal">Como pioneros en la industria, ofrecemos más que simples Placas temporales; te brindamos
+                        <h4 class="fs-6 fw-normal">Como pioneros en la industria, ofrecemos más que simples Placas
+                            temporales; te brindamos
                             tranquilidad. Confía en
                             nosotros para una experiencia confiable, legal y libre de problemas. Nuestro compromiso va
                             más allá de proporcionar
